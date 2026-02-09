@@ -133,12 +133,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_0
       rect:
         serializedVersion: 2
-        x: 102
-        y: 863
-        width: 107
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 101
+        y: 862
+        width: 109
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5854951, y: 0.8276208}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_1
       rect:
         serializedVersion: 2
-        x: 287
-        y: 792
-        width: 110
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 286
+        y: 791
+        width: 112
+        height: 77
+      alignment: 9
+      pivot: {x: 0.66641074, y: 0.84794956}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,12 +177,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_2
       rect:
         serializedVersion: 2
-        x: 433
-        y: 557
-        width: 563
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 432
+        y: 556
+        width: 565
+        height: 402
+      alignment: 9
+      pivot: {x: 0.6114769, y: 0.044209648}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,12 +199,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_3
       rect:
         serializedVersion: 2
-        x: 84
-        y: 676
-        width: 130
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 675
+        width: 132
+        height: 152
+      alignment: 9
+      pivot: {x: 0.54412365, y: 0.8755188}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_4
       rect:
         serializedVersion: 2
-        x: 312
-        y: 630
-        width: 106
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 311
+        y: 629
+        width: 108
+        height: 163
+      alignment: 9
+      pivot: {x: 0.4892143, y: 0.8716165}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,12 +243,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_5
       rect:
         serializedVersion: 2
-        x: 51
-        y: 323
-        width: 316
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 50
+        y: 322
+        width: 318
+        height: 265
+      alignment: 9
+      pivot: {x: 0.6296421, y: 0.6296419}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,12 +265,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_6
       rect:
         serializedVersion: 2
-        x: 176
-        y: 583
-        width: 15
-        height: 5
+        x: 175
+        y: 582
+        width: 17
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_7
       rect:
         serializedVersion: 2
-        x: 851
-        y: 511
-        width: 15
-        height: 4
+        x: 850
+        y: 510
+        width: 17
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_8
       rect:
         serializedVersion: 2
-        x: 70
-        y: 5
-        width: 174
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 69
+        y: 4
+        width: 176
+        height: 191
+      alignment: 9
+      pivot: {x: 0.81882626, y: 0.9616662}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_9
       rect:
         serializedVersion: 2
-        x: 264
+        x: 263
         y: 0
-        width: 182
-        height: 193
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 184
+        height: 194
+      alignment: 9
+      pivot: {x: 0.1639167, y: 0.95452684}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -353,12 +353,12 @@ TextureImporter:
       name: Player Songhaven Spritesheet (1)_10
       rect:
         serializedVersion: 2
-        x: 489
-        y: 98
-        width: 741
-        height: 409
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 488
+        y: 97
+        width: 743
+        height: 411
+      alignment: 9
+      pivot: {x: 0.60943085, y: 0.7981347}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -375,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 37295031e7400d14d826c4fb4404cf96
+    spriteID: f32c4c4049cc94c4faf19513b039a64f
     internalID: 0
     vertices: []
     indices: 
