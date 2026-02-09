@@ -267,7 +267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8928530832493868208, guid: 117de7bb0c0871b48890c5ee376a0c8a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.09
+      value: 11.75
       objectReference: {fileID: 0}
     - target: {fileID: 8928530832493868208, guid: 117de7bb0c0871b48890c5ee376a0c8a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -684,7 +684,7 @@ PrefabInstance:
       objectReference: {fileID: 304407690}
     - target: {fileID: 4217744644259980750, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.95
+      value: -7.29
       objectReference: {fileID: 0}
     - target: {fileID: 4217744644259980750, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -740,11 +740,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6581141644780058886, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.173021
+      value: -19.11533
       objectReference: {fileID: 0}
     - target: {fileID: 6581141644780058886, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.32471
+      value: -3.35218
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5413070399183033019, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
@@ -790,7 +790,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -806,11 +806,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: 13.722592, y: 7.8612957}
+      - {x: -13.7016325, y: 7.9707975}
+      - {x: -13.738603, y: -7.6131353}
+      - {x: 1.7313347, y: -7.5559587}
+      - {x: 13.530101, y: -7.638652}
   m_UseDelaunayMesh: 0
 --- !u!1 &1721181538
 GameObject:
