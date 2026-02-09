@@ -1096,14 +1096,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff545d8b32fc94aa356b6c1382e79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraLeftStop: -5
-  cameraRightStop: 37.6
-  cameraTopStop: 8
-  cameraBottomStop: 0
-  rigidbody: {fileID: 781696921}
-  player: {fileID: 781696925}
-  aheadDistance: 6
-  cameraSpeed: 4
 --- !u!1 &546993424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1441,16 +1433,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &781696921 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 6913582304129083007, guid: 117de7bb0c0871b48890c5ee376a0c8a, type: 3}
-  m_PrefabInstance: {fileID: 1153217429133157437}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &781696925 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8928530832493868208, guid: 117de7bb0c0871b48890c5ee376a0c8a, type: 3}
-  m_PrefabInstance: {fileID: 1153217429133157437}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &810773766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,7 +2103,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: hjgfjghkgf
+  m_text: 'What''s up Haydn?
+
+    (Rsdnt1 speaking)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
