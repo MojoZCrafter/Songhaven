@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 37525560}
   - component: {fileID: 37525561}
   m_Layer: 0
-  m_Name: Player Songhaven Spritesheet (1)_2
+  m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -313,7 +313,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -2119453293622437243, guid: 4e501476d3e51834fa04bd8a1828583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1487,7 +1487,7 @@ GameObject:
   - component: {fileID: 533695968}
   - component: {fileID: 533695969}
   m_Layer: 0
-  m_Name: Player Songhaven Spritesheet (1)_4
+  m_Name: Right Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1502,7 +1502,7 @@ Transform:
   m_GameObject: {fileID: 533695967}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.904514, y: -3.1583438, z: 0}
+  m_LocalPosition: {x: 11.7, y: -1.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1551,7 +1551,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 9
   m_Sprite: {fileID: -1330501236886398057, guid: 4e501476d3e51834fa04bd8a1828583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1745,7 +1745,7 @@ GameObject:
   - component: {fileID: 685523405}
   - component: {fileID: 685523406}
   m_Layer: 0
-  m_Name: Player Songhaven Spritesheet (1)_3
+  m_Name: Left Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1760,7 +1760,7 @@ Transform:
   m_GameObject: {fileID: 685523404}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.444664, y: -1.12798, z: 0}
+  m_LocalPosition: {x: 9.41, y: -0.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1809,7 +1809,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 16
   m_Sprite: {fileID: 6656057165261821324, guid: 4e501476d3e51834fa04bd8a1828583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1993,14 +1993,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 37525560}
+  - {fileID: 1373773886}
   - {fileID: 1644056739}
   - {fileID: 1539759241}
   - {fileID: 685523405}
-  - {fileID: 533695968}
   - {fileID: 1600957896}
+  - {fileID: 533695968}
   - {fileID: 1944060207}
   - {fileID: 1346167554}
-  - {fileID: 1373773886}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &730438608
@@ -3101,7 +3101,7 @@ GameObject:
   - component: {fileID: 1346167554}
   - component: {fileID: 1346167555}
   m_Layer: 0
-  m_Name: Player Songhaven Spritesheet (1)_9
+  m_Name: 'Right Leg '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3116,7 +3116,7 @@ Transform:
   m_GameObject: {fileID: 1346167553}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.470812, y: -6.3957314, z: 0}
+  m_LocalPosition: {x: 10.62, y: -1.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3165,7 +3165,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -3260879215229737829, guid: 4e501476d3e51834fa04bd8a1828583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3188,7 +3188,7 @@ GameObject:
   - component: {fileID: 1373773886}
   - component: {fileID: 1373773887}
   m_Layer: 0
-  m_Name: Player Songhaven Spritesheet (1)_10
+  m_Name: Cloak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3203,7 +3203,7 @@ Transform:
   m_GameObject: {fileID: 1373773885}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 10.35, y: 0.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3252,7 +3252,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 21
   m_Sprite: {fileID: -3022660454413609540, guid: 4e501476d3e51834fa04bd8a1828583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3982,7 +3982,7 @@ GameObject:
   - component: {fileID: 1539759241}
   - component: {fileID: 1539759242}
   m_Layer: 0
-  m_Name: Player Songhaven Spritesheet (1)_0
+  m_Name: Left Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3997,7 +3997,7 @@ Transform:
   m_GameObject: {fileID: 1539759240}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.10627, y: 1.3535757, z: 0}
+  m_LocalPosition: {x: 9.68, y: -0.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4046,7 +4046,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: 7204662097479830100, guid: 4e501476d3e51834fa04bd8a1828583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4069,7 +4069,7 @@ GameObject:
   - component: {fileID: 1600957896}
   - component: {fileID: 1600957897}
   m_Layer: 0
-  m_Name: Player Songhaven Spritesheet (1)_1
+  m_Name: Right Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4084,7 +4084,7 @@ Transform:
   m_GameObject: {fileID: 1600957895}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.56612, y: 0.33839417, z: 0}
+  m_LocalPosition: {x: 11.631, y: -0.308, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4133,7 +4133,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 8
   m_Sprite: {fileID: 4824674773765249874, guid: 4e501476d3e51834fa04bd8a1828583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4377,7 +4377,7 @@ GameObject:
   - component: {fileID: 1644056739}
   - component: {fileID: 1644056740}
   m_Layer: 0
-  m_Name: Player Songhaven Spritesheet (1)_5
+  m_Name: Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4392,7 +4392,7 @@ Transform:
   m_GameObject: {fileID: 1644056738}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.4902115, y: -1.240778, z: 0}
+  m_LocalPosition: {x: 10.73, y: -0.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4441,7 +4441,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2248722774350219054, guid: 4e501476d3e51834fa04bd8a1828583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4758,7 +4758,7 @@ GameObject:
   - component: {fileID: 1944060207}
   - component: {fileID: 1944060208}
   m_Layer: 0
-  m_Name: Player Songhaven Spritesheet (1)_8
+  m_Name: Left Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4773,7 +4773,7 @@ Transform:
   m_GameObject: {fileID: 1944060206}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.360813, y: -4.9157314, z: 0}
+  m_LocalPosition: {x: 10.66, y: -1.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4822,7 +4822,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 5084166269196820671, guid: 4e501476d3e51834fa04bd8a1828583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
