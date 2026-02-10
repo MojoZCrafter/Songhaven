@@ -3,6 +3,7 @@ SONGHAVEN GAME!!!!
 Unity Version: 6000.0.48f1
 MAKE SURE YOU DOWNLOAD THIS VERSION ON YOUR HOME PC OR IT WILL BREAK EVERYTHING
 
-Make sure you push your commits!
+All development should be on a BRANCH, not MAIN. Just make sure we don't set off any atomic bombs in Songhaven :)
+Make sure you push your commits and make a pull request (merging to main)
 
 Made by the very cool Andrew Backman, Kayson Ray, and Sammy Watts.
