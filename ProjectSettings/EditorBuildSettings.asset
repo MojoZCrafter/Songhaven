@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Outskirts_3.unity
     guid: 856dd738a0a07224cad154c352a6d4a3
   - enabled: 1
+    path: Assets/Scenes/Outskirts_4.unity
+    guid: fea178acaf8c73148b399d28b50a5885
+  - enabled: 1
     path: Assets/Scenes/TrillAlive.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
