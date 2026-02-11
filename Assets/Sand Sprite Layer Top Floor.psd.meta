@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3a8bb49ab8a9cdb4ba5742bb56a05cf6
+guid: 8b55ba83ad9795640beb068b6d5b7770
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2881047721530240275
-    second: songhaven title_0
+      213: -4694580507897344888
+    second: Sand Sprite Layer Top Floor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: songhaven title_0
+      name: Sand Sprite Layer Top Floor_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 2360
-        height: 1640
+        y: 114
+        width: 2100
+        height: 407
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de2dd399c567408d0800000000000000
-      internalID: -2881047721530240275
+      spriteID: 88c4e49a6ef79deb0800000000000000
+      internalID: -4694580507897344888
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      songhaven title_0: -2881047721530240275
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
