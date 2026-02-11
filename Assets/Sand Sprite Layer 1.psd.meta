@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 3a8bb49ab8a9cdb4ba5742bb56a05cf6
+guid: 363fdcdfaa26cc94db9717572e814d09
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2881047721530240275
-    second: songhaven title_0
+      213: 580595915268072348
+    second: Sand Sprite Layer 1_0
+  - first:
+      213: 3672304606183278448
+    second: Sand Sprite Layer 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: songhaven title_0
+      name: Sand Sprite Layer 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 2360
-        height: 1640
+        y: 298
+        width: 2100
+        height: 470
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 4}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93a897a8e0be0800800000000000000
+      internalID: 580595915268072348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Sprite Layer 1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 2100
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de2dd399c567408d0800000000000000
-      internalID: -2881047721530240275
+      spriteID: 077c5962595a6f230800000000000000
+      internalID: 3672304606183278448
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2d92767188c61014aab94e7dcf5e98e3
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      songhaven title_0: -2881047721530240275
+      Sand Sprite Layer 1_0: 580595915268072348
+      Sand Sprite Layer 1_1: 3672304606183278448
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
