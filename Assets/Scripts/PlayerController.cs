@@ -27,11 +27,24 @@ public class PlayerController : MonoBehaviour
         GetInputs();
         Move();
         Jump();
+        Flip();
     }
 
     void GetInputs()
     {
         xAxis = Input.GetAxisRaw("Horizontal");
+    }
+
+    void Flip()
+    {
+        if(xAxis < 0)
+        {
+            transform.localScale = new Vector2(-1, transform.localScale.y);
+        }
+        else
+        {
+            transform.localScale = new Vector2(1, transform.localScale.y);
+        }
     }
 
     private void Move()
