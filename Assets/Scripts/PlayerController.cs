@@ -6,13 +6,22 @@ public class PlayerController : MonoBehaviour
     [Header("Horizontal Movement Settings")]
     [SerializeField] private float walkSpeed = 1;
 
-    [Header("Ground Check Settings")]
+    [Header("Vertical Movement Settings")]
     [SerializeField] private float jumpForce = 10;
+    private int jumpBufferCounter = 0;
+    [SerializeField] private int jumpBufferFrames;
+    private float coyoteTimeCounter = 0;
+    [SerializeField] private float coyoteTime;
+    private int airJumpCounter = 0;
+    [SerializeField] private int maxAirJumps;
+
+    [Header("Ground Check Settings")]
     [SerializeField] private Transform groundCheckPoint;
     [SerializeField] private float groundCheckX = 0.5f;
     [SerializeField] private float groundCheckY = 0.2f;
     [SerializeField] private LayerMask whatIsGround;
 
+    PlayerStateList pState;
     private Rigidbody2D rb;
     private float xAxis;
 
@@ -32,6 +41,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        pState = GetComponent<PlayerStateList>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -39,9 +49,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         GetInputs();
+        UpdateJumpVariables();
+        Flip();
         Move();
         Jump();
-        Flip();
     }
 
     void GetInputs()
@@ -85,10 +96,47 @@ public class PlayerController : MonoBehaviour
         if(Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+            pState.jumping = false;
         }
-        if (Input.GetButtonDown("Jump")&& Grounded())
+
+        if (!pState.jumping)
         {
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
+            if (jumpBufferCounter > 0 && coyoteTimeCounter > 0)
+            {
+                rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
+                pState.jumping = true;
+            }
+            else if(!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump")) 
+            {
+                pState.jumping = true;
+                airJumpCounter++;
+                rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
+            }
+        }
+
+
+    }
+
+    void UpdateJumpVariables()
+    {
+        if(Grounded())
+        {
+            pState.jumping = false;
+            coyoteTimeCounter = coyoteTime;
+            airJumpCounter = 0;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
+
+        if(Input.GetButtonDown("Jump"))
+        {
+            jumpBufferCounter = jumpBufferFrames;
+        }
+        else
+        {
+            jumpBufferCounter--;
         }
     }
 }
