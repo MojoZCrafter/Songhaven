@@ -1453,11 +1453,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6581141644780058886, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.820007
+      value: -18.824999
       objectReference: {fileID: 0}
     - target: {fileID: 6581141644780058886, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1199701
+      value: -1.1199901
       objectReference: {fileID: 0}
     - target: {fileID: 6581141644780058886, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1980,7 +1980,7 @@ Transform:
   m_GameObject: {fileID: 1244717853}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.21, y: -0.35, z: 0.53927445}
+  m_LocalPosition: {x: 0.452, y: -0.356, z: 0.53927445}
   m_LocalScale: {x: 4.8899755, y: 4.8899755, z: 4.8899755}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3184,8 +3184,8 @@ GameObject:
   - component: {fileID: 1585842985}
   - component: {fileID: 1585842984}
   - component: {fileID: 1585842983}
+  - component: {fileID: 1585842987}
   - component: {fileID: 1585842982}
-  - component: {fileID: 1585842981}
   - component: {fileID: 1585842986}
   m_Layer: 0
   m_Name: Songhaven Player
@@ -3194,32 +3194,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1585842981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585842979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f21b32fbf0883b946b01e1e3dd58cfde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 1585842982}
-  playerInput: {fileID: 0}
-  speed: 7
-  jumpForce: 16
-  jumpCutMultiplier: 0.5
-  normalGravity: 2
-  fallGravity: 4
-  jumpGravity: 2
-  facingDirection: 1
-  groundCheck: {fileID: 1244717854}
-  groundCheckRadius: 0.5
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!50 &1585842982
 Rigidbody2D:
   serializedVersion: 5
@@ -3235,8 +3209,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_GravityScale: 3
+  m_Material: {fileID: 6200000, guid: 177ff5ce43d6d784a9b95db3c0c15848, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3281,8 +3255,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.43340015, y: 0.96564794}
-  m_Size: {x: 1.0141287, y: 2.7260127}
+  m_Offset: {x: 0.43340015, y: 0.9976554}
+  m_Size: {x: 1.0141287, y: 2.6619978}
   m_Direction: 0
 --- !u!212 &1585842984
 SpriteRenderer:
@@ -3394,6 +3368,26 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1585842987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585842979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0f7109c2ffd9741b1f44d7ae21827b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 7
+  jumpForce: 18
+  groundCheckPoint: {fileID: 1244717854}
+  groundCheckX: 0.5
+  groundCheckY: 0.2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1600957895
 GameObject:
   m_ObjectHideFlags: 0
