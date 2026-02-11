@@ -3193,6 +3193,7 @@ GameObject:
   - component: {fileID: 1585842984}
   - component: {fileID: 1585842983}
   - component: {fileID: 1585842987}
+  - component: {fileID: 1585842988}
   - component: {fileID: 1585842982}
   - component: {fileID: 1585842986}
   m_Layer: 0
@@ -3390,12 +3391,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 7
   jumpForce: 18
+  jumpBufferFrames: 8
+  coyoteTime: 0.1
+  maxAirJumps: 1
   groundCheckPoint: {fileID: 1244717854}
   groundCheckX: 0.5
   groundCheckY: 0.2
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
+  dashSpeed: 70
+  dashTime: 0.2
+  dashCooldown: 0.35
+--- !u!114 &1585842988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585842979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e173a5a36b30624da8876b1be4619bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumping: 0
+  dashing: 0
 --- !u!1 &1600957895
 GameObject:
   m_ObjectHideFlags: 0
