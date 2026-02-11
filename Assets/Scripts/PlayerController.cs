@@ -4,9 +4,7 @@ public class PlayerController : MonoBehaviour
 {
 
     [Header("Horizontal Movement Settings")]
-    private Rigidbody2D rb;
     [SerializeField] private float walkSpeed = 1;
-    private float xAxis;
 
     [Header("Ground Check Settings")]
     [SerializeField] private float jumpForce = 10;
@@ -15,7 +13,23 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float groundCheckY = 0.2f;
     [SerializeField] private LayerMask whatIsGround;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Rigidbody2D rb;
+    private float xAxis;
+
+    public static PlayerController Instance;
+
+    void Awake()
+    {
+        if(Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
