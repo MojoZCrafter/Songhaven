@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Horizontal Movement Settings")]
     [SerializeField] private float walkSpeed = 1;
+    [Space(5)]
 
     [Header("Vertical Movement Settings")]
     [SerializeField] private float jumpForce = 10;
@@ -16,16 +17,20 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float coyoteTime;
     private int airJumpCounter = 0;
     [SerializeField] private int maxAirJumps;
+    [Space(5)]
 
     [Header("Ground Check Settings")]
     [SerializeField] private Transform groundCheckPoint;
     [SerializeField] private float groundCheckX = 0.5f;
     [SerializeField] private float groundCheckY = 0.2f;
     [SerializeField] private LayerMask whatIsGround;
+    [Space(5)]
 
+    [Header("Dash Settings")]
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashTime;
     [SerializeField] private float dashCooldown;
+    [Space(5)]
 
     PlayerStateList pState;
     private Rigidbody2D rb;
@@ -53,6 +58,8 @@ public class PlayerController : MonoBehaviour
         pState = GetComponent<PlayerStateList>();
         rb = GetComponent<Rigidbody2D>();
         gravity = rb.gravityScale;
+        //anim = GetComponent<Animator>();
+        canDash = true;
     }
 
     // Update is called once per frame
@@ -77,11 +84,11 @@ public class PlayerController : MonoBehaviour
     {
         if(xAxis < 0)
         {
-            transform.localScale = new Vector2(-1, transform.localScale.y);
+            transform.localScale = new Vector2(-Mathf.Abs(transform.localScale.x), transform.localScale.y);
         }
-        else
+        else if(xAxis > 0)
         {
-            transform.localScale = new Vector2(1, transform.localScale.y);
+            transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
         }
     }
 
