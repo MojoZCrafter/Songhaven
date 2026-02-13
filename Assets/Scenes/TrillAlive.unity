@@ -583,7 +583,7 @@ Transform:
   m_GameObject: {fileID: 328103857}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.961372, y: -6.44, z: 0.013261683}
+  m_LocalPosition: {x: -48.47, y: -6.44, z: 0.013261683}
   m_LocalScale: {x: 10.1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2230,7 +2230,7 @@ GameObject:
   - component: {fileID: 1373807116}
   - component: {fileID: 1373807115}
   - component: {fileID: 1373807114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sand Sprite Layer Top Floor_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2347,7 +2347,7 @@ Transform:
   m_GameObject: {fileID: 1373807113}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.41, y: 6.77, z: 0}
+  m_LocalPosition: {x: -20.41, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2364,7 +2364,7 @@ GameObject:
   - component: {fileID: 1394643353}
   - component: {fileID: 1394643355}
   - component: {fileID: 1394643354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sand Sprite Layer Top Floor_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3027,6 +3027,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 146009386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1482473159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1482473160}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1482473160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482473159}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.37, y: -0.33, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1585842985}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1523090414
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,6 +3325,8 @@ GameObject:
   - component: {fileID: 1585842983}
   - component: {fileID: 1585842982}
   - component: {fileID: 1585842986}
+  - component: {fileID: 1585842988}
+  - component: {fileID: 1585842987}
   m_Layer: 0
   m_Name: Songhaven Player
   m_TagString: Untagged
@@ -3440,6 +3473,7 @@ Transform:
   - {fileID: 1355792863}
   - {fileID: 1944060207}
   - {fileID: 1346167554}
+  - {fileID: 1482473160}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1585842986
@@ -3464,6 +3498,48 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1585842987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585842979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e173a5a36b30624da8876b1be4619bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumping: 0
+  dashing: 0
+  cutscene: 0
+--- !u!114 &1585842988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585842979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0f7109c2ffd9741b1f44d7ae21827b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 7
+  jumpForce: 17
+  jumpBufferFrames: 7
+  coyoteTime: 0.1
+  maxAirJumps: 1
+  groundCheckPoint: {fileID: 1482473160}
+  groundCheckX: 0.5
+  groundCheckY: 0.2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  dashSpeed: 15
+  dashTime: 0.2
+  dashCooldown: 0.35
+  pState: {fileID: 0}
 --- !u!1 &1600957895
 GameObject:
   m_ObjectHideFlags: 0
@@ -3853,7 +3929,7 @@ Transform:
   m_GameObject: {fileID: 1748402235}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.46, y: 6.4, z: 0}
+  m_LocalPosition: {x: -20.46, y: -0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4021,7 +4097,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 758553097
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.6132076, g: 0.40622404, b: 0.21693665, a: 1}
   m_FlipX: 0
@@ -4735,7 +4811,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
