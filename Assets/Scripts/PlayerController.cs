@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float dashCooldown;
     [Space(5)]
 
-    PlayerStateList pState;
+    public PlayerStateList pState;
     private Rigidbody2D rb;
     private float xAxis;
     private float gravity;
@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
         {
             Instance = this;
         }
+        DontDestroyOnLoad(gameObject);
     }
 
     void Start()
@@ -65,6 +66,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(pState.cutscene) return;
         GetInputs();
         UpdateJumpVariables();
 
@@ -73,6 +75,11 @@ public class PlayerController : MonoBehaviour
         Move();
         Jump();
         StartDash();
+    }
+
+    private void FixedUpdate()
+    {
+        if (pState.cutscene) return;
     }
 
     void GetInputs()
@@ -125,6 +132,24 @@ public class PlayerController : MonoBehaviour
         canDash = true;
     }
 
+    public IEnumerator WalkIntoNewScene(Vector2 _exitDir, float _delay)
+    {
+        if(_exitDir.y > 0)
+        {
+            rb.linearVelocity = jumpForce * _exitDir;
+        }
+        if(_exitDir.x != 0)
+        {
+            xAxis = _exitDir.x > 0 ? 1 : -1;
+
+            Move();
+        }
+
+        Flip();
+        yield return new WaitForSeconds(_delay);
+        pState.cutscene = false;
+    }
+
     public bool Grounded()
     {
         if(Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
@@ -141,29 +166,25 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        if(Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
+        if(Input.GetButtonUp("Jump") && rb.linearVelocity.y > 3)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
             pState.jumping = false;
         }
 
-        if (!pState.jumping)
+        if (!pState.jumping && jumpBufferCounter > 0 && coyoteTimeCounter > 0)
         {
-            if (jumpBufferCounter > 0 && coyoteTimeCounter > 0)
-            {
-                rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
-                pState.jumping = true;
-            }
-            else if(!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump")) 
-            {
-                pState.jumping = true;
-                airJumpCounter++;
-                rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
-            }
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
+            pState.jumping = true;
         }
-
-
+        if(!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump")) 
+        {
+            pState.jumping = true;
+            airJumpCounter++;
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
+        }
     }
+
 
     void UpdateJumpVariables()
     {
