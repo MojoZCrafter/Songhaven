@@ -38,8 +38,11 @@ public class PlayerController : MonoBehaviour
     private float gravity;
     private bool canDash;
     private bool dashed;
+    private Animator anim;
 
     public static PlayerController Instance;
+
+
 
     void Awake()
     {
@@ -59,7 +62,7 @@ public class PlayerController : MonoBehaviour
         pState = GetComponent<PlayerStateList>();
         rb = GetComponent<Rigidbody2D>();
         gravity = rb.gravityScale;
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         canDash = true;
     }
 
@@ -102,7 +105,9 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         rb.linearVelocity = new Vector2(walkSpeed * xAxis, rb.linearVelocity.y);
+        anim.SetBool("IsRunning", rb.linearVelocity.x != 0 && Grounded());
     }
+
 
     void StartDash()
     {
