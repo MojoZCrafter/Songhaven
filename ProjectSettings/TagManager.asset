@@ -63,6 +63,9 @@ TagManager:
   - name: Player 2
     uniqueID: 3109123653
     locked: 0
+  - name: Forground
+    uniqueID: 845889861
+    locked: 0
   m_RenderingLayers:
   - Default
   - Player
