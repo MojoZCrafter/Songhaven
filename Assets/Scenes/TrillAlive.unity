@@ -1493,6 +1493,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1222883689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1221773378 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5814661594897832555, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
+  m_PrefabInstance: {fileID: 1339438938267759583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1222883688
 GameObject:
   m_ObjectHideFlags: 0
@@ -3444,7 +3449,7 @@ Transform:
   m_GameObject: {fileID: 9102471195314665225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.04, y: 3.5, z: 0}
+  m_LocalPosition: {x: 18.8, y: 3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3462,7 +3467,7 @@ Transform:
   m_GameObject: {fileID: 638334700006938577}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.020327, y: 3.4334602, z: -33.931133}
+  m_LocalPosition: {x: 6.279192, y: 3.4334593, z: -10.126031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3601,7 +3606,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1221773378}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 12
@@ -3716,6 +3721,18 @@ PrefabInstance:
     - target: {fileID: 1936997378182946904, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: m_Name
       value: Right Transition
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382700662025018917, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
+      propertyPath: exitDirection.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319378428940672662, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319378428940672662, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4069,7 +4086,7 @@ Transform:
   m_GameObject: {fileID: 4409610764846664161}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.71417, y: -2.5826752, z: -33.931133}
+  m_LocalPosition: {x: 9.764999, y: -6.1070004, z: -10.126031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
