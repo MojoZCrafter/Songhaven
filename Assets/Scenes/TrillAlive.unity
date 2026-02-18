@@ -828,15 +828,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1426293066}
   lines:
-  - "Rsdnt1: What\u2019s up Haydn?"
-  - 'Rsdnt1: Did you find any food?'
-  - 'Haydn: No'
-  - 'Haydn: Sorry'
-  - "Rsdnt1: That\u2019s fine. I\u2019ll eat tomorrow"
-  - 'Rsdnt1: Or maybe the day after that'
-  - 'Rsdnt1: Or the day after that'
-  - 'Rsdnt1: Or I could just lie down and accept my fate'
-  - "Haydn: \u2026"
+  - "What\u2019s up Haydn?"
+  - Did you find any food?
+  - ...
+  - "That\u2019s fine"
+  - "I\u2019ll eat tomorrow"
+  - Or maybe the day after that
+  - Or the day after that
+  - Or I could just lie down and accept my fate
+  - ...
   textSpeed: 0.05
 --- !u!1 &512847529
 GameObject:
