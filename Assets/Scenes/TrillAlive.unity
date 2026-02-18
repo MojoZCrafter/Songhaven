@@ -827,8 +827,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1426293066}
-  lines: []
-  textSpeed: 0.3
+  lines:
+  - What's up Haydn?
+  - test 2
+  - test 3
+  - test 4
+  textSpeed: 0.1
 --- !u!1 &512847529
 GameObject:
   m_ObjectHideFlags: 0
