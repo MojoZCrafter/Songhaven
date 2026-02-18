@@ -3427,15 +3427,15 @@ CompositeCollider2D:
       - X: -351310112
         Y: 199846688
       - X: -351310112
-        Y: -85665472
+        Y: -113838848
       - X: 276125632
-        Y: -85665472
+        Y: -113838848
   m_CompositePaths:
     m_Paths:
-    - - {x: 27.612535, y: -8.566547}
+    - - {x: 27.612535, y: -11.383885}
       - {x: 27.612535, y: 19.984669}
       - {x: -35.131012, y: 19.98464}
-      - {x: -35.13098, y: -8.566547}
+      - {x: -35.13098, y: -11.383885}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
@@ -3467,7 +3467,7 @@ Transform:
   m_GameObject: {fileID: 638334700006938577}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.279192, y: 3.4334593, z: -10.126031}
+  m_LocalPosition: {x: 6.2713413, y: 0.6161194, z: -10.126031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3609,7 +3609,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1221773378}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 12
+    OrthographicSize: 10
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -3842,7 +3842,7 @@ MonoBehaviour:
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
-    m_Time: 2
+    m_Time: 1
     m_CustomCurve:
       serializedVersion: 2
       m_Curve: []
@@ -3869,7 +3869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackedObjectOffset: {x: 1, y: 0, z: 0}
-  m_LookaheadTime: 0
+  m_LookaheadTime: 1
   m_LookaheadSmoothing: 1
   m_LookaheadIgnoreY: 1
   m_XDamping: 0.75
@@ -3880,7 +3880,7 @@ MonoBehaviour:
   m_ScreenY: 0.5
   m_CameraDistance: 10
   m_DeadZoneWidth: 0.2
-  m_DeadZoneHeight: 0.5
+  m_DeadZoneHeight: 0.3235294
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
@@ -3949,7 +3949,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 1
   m_CompositeOrder: 0
-  m_Offset: {x: -3.759224, y: 5.7090607}
+  m_Offset: {x: -3.759224, y: 4.3003917}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3959,7 +3959,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 62.743576, y: 28.551216}
+  m_Size: {x: 62.743576, y: 31.368553}
   m_EdgeRadius: 0
 --- !u!20 &6244470378581402649
 Camera:
@@ -3996,7 +3996,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 12
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4024,6 +4024,7 @@ GameObject:
   - component: {fileID: 834992314270807369}
   - component: {fileID: 5714059804377225218}
   - component: {fileID: 3524331865187143162}
+  - component: {fileID: 6820528126761919985}
   m_Layer: 0
   m_Name: Open Room Camera Bounds
   m_TagString: Untagged
@@ -4031,6 +4032,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6820528126761919985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6820528126761919984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48056dc9646e0ec4782ef55fc4ef063e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newCamera: {fileID: 1733886255336769029}
 --- !u!1 &8498905054006594928
 GameObject:
   m_ObjectHideFlags: 3
@@ -4070,6 +4084,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1091264097845961983}
+  - component: {fileID: 9102471195314665226}
   m_Layer: 0
   m_Name: '[Camera]'
   m_TagString: Untagged
@@ -4077,6 +4092,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9102471195314665226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9102471195314665225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5c765ec911d0141a328974d5dc6f09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allVirtualCameras:
+  - {fileID: 1733886255336769029}
 --- !u!4 &9176089886983380914
 Transform:
   m_ObjectHideFlags: 0

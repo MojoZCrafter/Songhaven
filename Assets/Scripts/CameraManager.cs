@@ -1,12 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
 public class CameraManager : MonoBehaviour
 {
     [SerializeField] CinemachineVirtualCamera[] allVirtualCameras;
-    CameraManager Instance;
+
     private CinemachineVirtualCamera currentCamera;
     private CinemachineFramingTransposer framingTransposer;
+
+    [Header("Y Damping Settings")]
+    [SerializeField] private float panAmount = 0.1f;
+    [SerializeField] private float panTime = 0.2f;
+    public float playerFallSpeedThreshold = -10;
+    public bool isLerpingYDamping;
+    public bool hasLerpedYDamping;
+    private float normalYDamp;
+
+    public static CameraManager Instance {get; private set; }
 
     private void Awake()
     {
@@ -23,6 +35,8 @@ public class CameraManager : MonoBehaviour
                 framingTransposer = currentCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
             }
         }
+
+        normalYDamp = framingTransposer.m_YDamping;
     }
 
     private void Start()
@@ -38,5 +52,30 @@ public class CameraManager : MonoBehaviour
         currentCamera.enabled = false;
         currentCamera = _newCam;
         currentCamera.enabled = true;
+    }
+
+    public IEnumerator LerpYDamping(bool _isPlayerFalling)
+    {
+        isLerpingYDamping = true;
+        float _startYDamp = framingTransposer.m_YDamping;
+        float _endYDamp = 0;
+        if(_isPlayerFalling)
+        {
+            _endYDamp = panAmount;
+            hasLerpedYDamping = true;
+        }
+        else
+        {
+            _endYDamp = normalYDamp;
+        }
+        float _timer = 0;
+        while (_timer < panTime)
+        {
+            _timer += Time.deltaTime;
+            float _lerpedPanAmount = Mathf.Lerp(_startYDamp, _endYDamp, (_timer / panTime));
+            framingTransposer.m_YDamping = _lerpedPanAmount;
+            yield return null;
+        }
+        isLerpingYDamping = false;
     }
 }
