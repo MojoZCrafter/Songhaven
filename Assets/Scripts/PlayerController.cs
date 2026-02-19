@@ -26,6 +26,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask whatIsGround;
     [Space(5)]
 
+    [Header("Camera Settings")]
+    [SerializeField] private float playerFallSpeedThreshold = -10;
+
+
     [Header("Dash Settings")]
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashTime;
@@ -72,6 +76,7 @@ public class PlayerController : MonoBehaviour
         if(pState.cutscene) return;
         GetInputs();
         UpdateJumpVariables();
+        UpdateCameraYDampForPlayerFall();
 
         if(pState.dashing) return;
         Flip();
@@ -108,6 +113,18 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("IsRunning", rb.linearVelocity.x != 0 && Grounded());
     }
 
+    void UpdateCameraYDampForPlayerFall()
+    {
+        if (rb.linearVelocity.y < playerFallSpeedThreshold && !CameraManager.Instance.isLerpingYDamping && !CameraManager.Instance.hasLerpedYDamping)
+        {
+            StartCoroutine(CameraManager.Instance.LerpYDamping(true));
+        }
+        if (rb.linearVelocity.y >= 0 && !CameraManager.Instance.isLerpingYDamping && CameraManager.Instance.hasLerpedYDamping)
+        {
+            CameraManager.Instance.hasLerpedYDamping = false;
+            StartCoroutine(CameraManager.Instance.LerpYDamping(false));
+        }
+    }
 
     void StartDash()
     {
