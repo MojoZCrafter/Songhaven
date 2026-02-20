@@ -3984,10 +3984,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Songhaven Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4814145311274712023, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 5814661594897832555, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.565
