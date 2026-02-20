@@ -3,12 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+	[SerializeField] private string gameSceneName;
+
 	public void PlayGame()
 	{
-		SceneManager.LoadSceneAsync("Scene Name");
+		SceneManager.LoadScene(gameSceneName);
 	}
 
-	public void QuitGame()
+	public void Quit()
 	{
 		Application.Quit();
 	}
