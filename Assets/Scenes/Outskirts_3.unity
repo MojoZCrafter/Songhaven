@@ -530,6 +530,10 @@ PrefabInstance:
       propertyPath: transitionTo
       value: Outskirts_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3382700662025018917, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
+      propertyPath: exitDirection.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3700527715722563691, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: m_Name
       value: Top Start Point
@@ -5057,7 +5061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3382700662025018917, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: transitionTo
-      value: Outskirts_2
+      value: Outskirts_1
       objectReference: {fileID: 0}
     - target: {fileID: 3382700662025018917, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: exitDirection.x
@@ -5065,7 +5069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3700527715722563691, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: m_Name
-      value: Top Start Point
+      value: Left Start Point
       objectReference: {fileID: 0}
     - target: {fileID: 5319378428940672662, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: m_LocalPosition.x
