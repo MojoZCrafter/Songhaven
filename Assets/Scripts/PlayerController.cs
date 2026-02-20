@@ -205,6 +205,8 @@ public class PlayerController : MonoBehaviour
             airJumpCounter++;
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
         }
+
+        anim.SetBool("Jumping", !Grounded());
     }
 
 
