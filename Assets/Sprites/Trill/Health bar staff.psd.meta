@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 0a5a3017d26ce5f4a969f0f3cdc57522
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4194594298309443062
+    second: Health bar staff_0
+  - first:
+      213: 1909215612029930646
+    second: Health bar staff_1
+  - first:
+      213: -8305480880998213135
+    second: Health bar staff_2
+  - first:
+      213: 1972098661883223378
+    second: Health bar staff_3
+  - first:
+      213: -5051976592509643420
+    second: Health bar staff_4
+  - first:
+      213: -7925075739010271222
+    second: Health bar staff_5
+  - first:
+      213: 3787274307998502062
+    second: Health bar staff_6
+  - first:
+      213: -7608186552583247736
+    second: Health bar staff_7
+  - first:
+      213: 3187941870331908334
+    second: Health bar staff_8
+  - first:
+      213: 2304269297413932326
+    second: Health bar staff_9
+  - first:
+      213: -6456806292220852696
+    second: Health bar staff_10
+  - first:
+      213: 3342785059354219009
+    second: Health bar staff_11
+  - first:
+      213: -4905673455776909101
+    second: Health bar staff_12
+  - first:
+      213: 7982101675030898989
+    second: Health bar staff_13
+  - first:
+      213: 7643420452737936386
+    second: Health bar staff_14
+  - first:
+      213: 2348217550379186658
+    second: Health bar staff_15
+  - first:
+      213: -5360473528757303592
+    second: Health bar staff_16
+  - first:
+      213: 7582222683845261378
+    second: Health bar staff_17
+  - first:
+      213: 5792680247437874482
+    second: Health bar staff_18
+  - first:
+      213: -3841105130379500620
+    second: Health bar staff_19
+  - first:
+      213: -2150314070206666017
+    second: Health bar staff_20
+  - first:
+      213: -3993323543866392457
+    second: Health bar staff_21
+  - first:
+      213: 8740194107154197750
+    second: Health bar staff_22
+  - first:
+      213: 6983703275757710253
+    second: Health bar staff_23
+  - first:
+      213: -6930007189794493489
+    second: Health bar staff_24
+  - first:
+      213: 3534710427650718701
+    second: Health bar staff_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Health bar staff_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1577
+        width: 139
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a074afc28ed1fde47b6dd83ce84321b6
+      internalID: -297231393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1704
+        width: 179
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2db15bbac0be344280febe4a0382aaa
+      internalID: 1888380060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1576
+        width: 187
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976fbe368aa89644a9fb57fa77cd497a
+      internalID: -1439119904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_3
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1468
+        width: 246
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d81f336e8b1c14d9d40de62b75ff97
+      internalID: -839867336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1327
+        width: 123
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b846b6edf34210342a57bd577dbc2f73
+      internalID: 835872509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_5
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1505
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34311ae3c843c442a420d221c1d8a4e
+      internalID: 354245266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1387
+        width: 201
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd2d1f4643893c4987d9968ad356ebc
+      internalID: -1316404653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_7
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1316
+        width: 141
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9217e5c5a902b694e8c2b7e4fff820a6
+      internalID: 2073325334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1505
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d77a6a472e29db4a8da828b55ae47dd
+      internalID: -949146937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1475
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a991d856701aebd49869e8b05adf84d7
+      internalID: -1679985315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1470
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be83ad2dfb42e3647bc9f9fae7953a0c
+      internalID: 1266989829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_11
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1475
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f269a4fa85fc548be57db4f92d6e17
+      internalID: 1649486662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_12
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1469
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cd8d66505b3c84eafbd391bad2da65
+      internalID: 1893472225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1427
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a744c064a23064c9fbfd8abaeae9b9
+      internalID: -1489631214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_14
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1427
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cff1f3ed68a10438fe3c442d8740db
+      internalID: 163364151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1007
+        width: 35
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2693eb02020a3984f82d8ecbbaf12f9d
+      internalID: -318295854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_16
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1005
+        width: 128
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2257bd87d1cf047bd05f6b2e7c5ecd
+      internalID: 1989177663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_17
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1111
+        width: 143
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c7fb7c41153ce4d893b936954a8c8a
+      internalID: 2037672168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_18
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1007
+        width: 35
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8383379e16c7b904bbdbc063607e3624
+      internalID: 133588416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_19
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1005
+        width: 128
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cf2f97304df884a83be7b2fa5c8636
+      internalID: -759857389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 986
+        width: 146
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d60a0da9e90a964bbb3e465e18f9926
+      internalID: -1200402254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 878
+        width: 928
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8613e309b6fdd114c91b489c31b8dcca
+      internalID: -1619208564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 826
+        width: 936
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd704ad31674bc745ac8ff48a0ac7e70
+      internalID: 962976749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 774
+        width: 931
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cd4c862e11ddf4bb248baa806c27f1
+      internalID: -2002336822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 722
+        width: 931
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300ad196bb85e4b4d9d30d1d08ec294c
+      internalID: -1775634115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health bar staff_25
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 671
+        width: 928
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757e709ec8ec93046bf349f451ee309f
+      internalID: 1381376828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c0e85da07ab00ec4fad69afc37c14b94
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Health bar staff_0: -297231393
+      Health bar staff_1: 1888380060
+      Health bar staff_10: 1266989829
+      Health bar staff_11: 1649486662
+      Health bar staff_12: 1893472225
+      Health bar staff_13: -1489631214
+      Health bar staff_14: 163364151
+      Health bar staff_15: -318295854
+      Health bar staff_16: 1989177663
+      Health bar staff_17: 2037672168
+      Health bar staff_18: 133588416
+      Health bar staff_19: -759857389
+      Health bar staff_2: -1439119904
+      Health bar staff_20: -1200402254
+      Health bar staff_21: -1619208564
+      Health bar staff_22: 962976749
+      Health bar staff_23: -2002336822
+      Health bar staff_24: -1775634115
+      Health bar staff_25: 1381376828
+      Health bar staff_3: -839867336
+      Health bar staff_4: 835872509
+      Health bar staff_5: 354245266
+      Health bar staff_6: -1316404653
+      Health bar staff_7: 2073325334
+      Health bar staff_8: -949146937
+      Health bar staff_9: -1679985315
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
