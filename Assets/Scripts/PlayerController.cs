@@ -148,7 +148,7 @@ public class PlayerController : MonoBehaviour
         if(attack && timeSinceAttack >= timeBetweenAttack)
         {
             timeSinceAttack = 0;
-            anim.SetTrigger("Attack");
+            anim.SetTrigger("Attacking");
         }
     }
 
