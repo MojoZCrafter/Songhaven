@@ -40,6 +40,10 @@ public class PlayerController : MonoBehaviour
     private bool dashed;
     private Animator anim;
 
+    bool attack = false;
+    float timeBetweenAttack, timeSinceAttack;
+
+
     public static PlayerController Instance;
 
 
@@ -78,6 +82,7 @@ public class PlayerController : MonoBehaviour
         Move();
         Jump();
         StartDash();
+        Attack();
     }
 
     private void FixedUpdate()
@@ -88,6 +93,7 @@ public class PlayerController : MonoBehaviour
     void GetInputs()
     {
         xAxis = Input.GetAxisRaw("Horizontal");
+        attack = Input.GetMouseButtonDown(0);
     }
 
     void Flip()
@@ -135,6 +141,15 @@ public class PlayerController : MonoBehaviour
         pState.dashing = false;
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
+    }
+    void Attack()
+    {
+        timeSinceAttack += Time.deltaTime;
+        if(attack && timeSinceAttack >= timeBetweenAttack)
+        {
+            timeSinceAttack = 0;
+            anim.SetTrigger("Attack");
+        }
     }
 
     public IEnumerator WalkIntoNewScene(Vector2 _exitDir, float _delay)
