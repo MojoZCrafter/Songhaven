@@ -115,9 +115,9 @@ TextureImporter:
       name: Outskirts_0
       rect:
         serializedVersion: 2
-        x: 91
+        x: 90
         y: 3675
-        width: 742
+        width: 743
         height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -138,9 +138,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 58
-        y: 3387
+        y: 3381
         width: 215
-        height: 239
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
