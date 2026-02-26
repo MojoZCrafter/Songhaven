@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Outskirts_0: -4228766127415610014
+      Outskirts_1: -2260995170692632827
+      Outskirts_2: -4167343223603896569
+      Outskirts_3: -3806196581028510671
+      Outskirts_4: 2314245492261912002
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

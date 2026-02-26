@@ -32,16 +32,21 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float dashCooldown;
     [Space(5)]
 
+    [Header("Attacking")]
+    bool attack = false;
+    float timeBetweenAttack, timeSinceAttack;
+    [SerializeField] Transform SideAttackTransform, UpAttackTransform, DownAttackTransform;
+    [SerializeField] Vector2 SideAttackArea, UpAttackArea, DownAttackArea;
+    [SerializeField] LayerMask attackableLayer;
+
     public PlayerStateList pState;
     private Rigidbody2D rb;
-    private float xAxis;
+    private float xAxis, yAxis;
     private float gravity;
     private bool canDash;
     private bool dashed;
     private Animator anim;
 
-    bool attack = false;
-    float timeBetweenAttack, timeSinceAttack;
 
 
     public static PlayerController Instance;
@@ -70,7 +75,14 @@ public class PlayerController : MonoBehaviour
         canDash = true;
     }
 
-    // Update is called once per frame
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(SideAttackTransform.position, SideAttackArea);
+        Gizmos.DrawWireCube(UpAttackTransform.position, UpAttackArea);
+        Gizmos.DrawWireCube(DownAttackTransform.position, DownAttackArea);
+    }
+
     void Update()
     {
         if(pState.cutscene) return;
@@ -93,6 +105,7 @@ public class PlayerController : MonoBehaviour
     void GetInputs()
     {
         xAxis = Input.GetAxisRaw("Horizontal");
+        yAxis = Input.GetAxisRaw("Vertical");
         attack = Input.GetMouseButtonDown(0);
     }
 
@@ -149,6 +162,29 @@ public class PlayerController : MonoBehaviour
         {
             timeSinceAttack = 0;
             anim.SetTrigger("Attacking");
+
+            if(yAxis == 0 || yAxis < 0 && Grounded())
+            {
+                Hit(SideAttackTransform, SideAttackArea);
+            }
+            else if(yAxis > 0)
+            {
+                Hit(UpAttackTransform, UpAttackArea);
+            }
+            else if(yAxis < 0 && !Grounded())
+            {
+                Hit(DownAttackTransform, DownAttackArea);
+            }
+        }
+    }
+
+    void Hit(Transform _attackTransform, Vector2 _attackArea)
+    {
+        Collider2D[] objectsToHit = Physics2D.OverlapBoxAll(_attackTransform.position, _attackArea, 0, attackableLayer);
+
+        if(objectsToHit.Length > 0)
+        {
+            Debug.Log("Hit");
         }
     }
 
