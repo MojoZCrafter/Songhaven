@@ -777,6 +777,11 @@ MonoBehaviour:
   attackableLayer:
     serializedVersion: 2
     m_Bits: 128
+  damage: 4
+  recoilXSteps: 5
+  recoilYSteps: 5
+  recoilXSpeed: 25
+  recoilYSpeed: 25
   pState: {fileID: 0}
 --- !u!114 &2320327699019876247
 MonoBehaviour:
@@ -792,6 +797,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumping: 0
   dashing: 0
+  recoilingX: 0
+  recoilingY: 0
+  lookingRight: 0
   cutscene: 0
 --- !u!1 &5280202595306118624
 GameObject:
