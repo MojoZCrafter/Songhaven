@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float dashCooldown;
     [Space(5)]
 
-    [Header("Attacking")]
+    [Header("Attack Settings")]
     bool attack = false;
     float timeBetweenAttack, timeSinceAttack;
     [SerializeField] Transform SideAttackTransform, UpAttackTransform, DownAttackTransform;
@@ -41,12 +41,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float damage;
     [Space(5)]
     
-    [Header("Recoil")]
+    [Header("Recoil Settings ")]
     [SerializeField] int recoilXSteps = 5;
     [SerializeField] int recoilYSteps = 5;
     [SerializeField] float recoilXSpeed = 100;
     [SerializeField] float recoilYSpeed = 100;
     private int stepsXRecoiled, stepsYRecoiled;
+    [Space(5)]
+
+    [Header("Health Settings")]
+    public int health;
+    public int maxHealth;
+    [Space(5)]
 
     public PlayerStateList pState;
     private Rigidbody2D rb;
@@ -72,6 +78,7 @@ public class PlayerController : MonoBehaviour
         {
             Instance = this;
         }
+        health = maxHealth;
         DontDestroyOnLoad(gameObject);
     }
 
@@ -290,6 +297,25 @@ public class PlayerController : MonoBehaviour
     {
         stepsYRecoiled = 0;
         pState.recoilingY = false;
+    }
+
+    public void TakeDamage(float _damage)
+    {
+        health -= Mathf.RoundToInt(_damage);
+        StartCoroutine(StopTakingDamage());
+    }
+
+    IEnumerator StopTakingDamage()
+    {
+        pState.invincible = true;
+        ClampHealth();
+        yield return new WaitForSeconds(1f);
+        pState.invincible = false;
+    }
+
+    void ClampHealth()
+    {
+        health = Mathf.Clamp(health, 0, maxHealth);
     }
 
     public bool Grounded()
