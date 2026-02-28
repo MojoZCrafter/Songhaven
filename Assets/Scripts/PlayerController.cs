@@ -34,7 +34,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("Attack Settings")]
     bool attack = false;
-    float timeBetweenAttack, timeSinceAttack;
+    [SerializeField] private float timeBetweenAttack; 
+    private float timeSinceAttack;
     [SerializeField] Transform SideAttackTransform, UpAttackTransform, DownAttackTransform;
     [SerializeField] Vector2 SideAttackArea, UpAttackArea, DownAttackArea;
     [SerializeField] LayerMask attackableLayer;
@@ -123,7 +124,7 @@ public class PlayerController : MonoBehaviour
     {
         xAxis = Input.GetAxisRaw("Horizontal");
         yAxis = Input.GetAxisRaw("Vertical");
-        attack = Input.GetMouseButtonDown(0);
+        attack = Input.GetButtonDown("Attack");
     }
 
     void Flip()
@@ -200,6 +201,7 @@ public class PlayerController : MonoBehaviour
     void Hit(Transform _attackTransform, Vector2 _attackArea, ref bool _recoilDir, float _recoilStrength)
     {
         Collider2D[] objectsToHit = Physics2D.OverlapBoxAll(_attackTransform.position, _attackArea, 0, attackableLayer);
+        List<Enemy> hitEnemies = new List<Enemy>();
 
         if(objectsToHit.Length > 0)
         {
@@ -207,9 +209,11 @@ public class PlayerController : MonoBehaviour
         }
         for(int i = 0; i < objectsToHit.Length; i++)
         {
-            if(objectsToHit[i].GetComponent<Enemy>() != null)
+            Enemy e = objectsToHit[i].GetComponent<Enemy>();
+            if(e && !hitEnemies.Contains(e))
             {
-                objectsToHit[i].GetComponent<Enemy>().EnemyHit(damage, (transform.position - objectsToHit[i].transform.position).normalized, _recoilStrength);
+                e.EnemyHit(damage, (transform.position - objectsToHit[i].transform.position).normalized, _recoilStrength);
+                hitEnemies.Add(e);
             }
         }
     }
