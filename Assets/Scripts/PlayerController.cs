@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
         {
             Instance = this;
         }
-        health = maxHealth;
+        Health = maxHealth;
         DontDestroyOnLoad(gameObject);
     }
 
@@ -112,11 +112,12 @@ public class PlayerController : MonoBehaviour
         Jump();
         StartDash();
         Attack();
-        Recoil();
     }
 
     private void FixedUpdate()
     {
+        if (pState.dashing) return;
+        Recoil();
         if (pState.cutscene) return;
     }
 
@@ -305,21 +306,28 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(float _damage)
     {
-        health -= Mathf.RoundToInt(_damage);
+        Health -= Mathf.RoundToInt(_damage);
         StartCoroutine(StopTakingDamage());
     }
 
     IEnumerator StopTakingDamage()
     {
         pState.invincible = true;
-        ClampHealth();
         yield return new WaitForSeconds(1f);
         pState.invincible = false;
     }
 
-    void ClampHealth()
+    public int Health
     {
-        health = Mathf.Clamp(health, 0, maxHealth);
+        get { return health; }
+        set 
+        {
+            if(health != value)
+            {
+                health = Mathf.Clamp(value, 0, maxHealth);
+            }
+        }
+
     }
 
     public bool Grounded()
