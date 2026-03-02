@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flotting note_0: -1452905965285090907
+      flotting note_1: 3458487374980001286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
