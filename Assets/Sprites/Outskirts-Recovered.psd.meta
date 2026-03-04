@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Outskirts-Recovered_0: -8531002440423987966
+      Outskirts-Recovered_1: -967250957155082361
+      Outskirts-Recovered_10: -5816526089232266925
+      Outskirts-Recovered_2: 7600182563120972695
+      Outskirts-Recovered_3: -6375677303975442400
+      Outskirts-Recovered_4: -7337925078314612902
+      Outskirts-Recovered_5: 5555441399771047536
+      Outskirts-Recovered_6: 6030558795183100311
+      Outskirts-Recovered_7: -6211302735591448899
+      Outskirts-Recovered_8: -2238169529768036204
+      Outskirts-Recovered_9: 1668987269271466391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
