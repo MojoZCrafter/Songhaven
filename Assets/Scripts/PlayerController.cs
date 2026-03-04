@@ -57,6 +57,8 @@ public class PlayerController : MonoBehaviour
     public int maxHealth;
     [SerializeField] GameObject damageParticle;
     [SerializeField] float hitFlashSpeed;
+    public delegate void OnHealthChangedDelegate();
+    [HideInInspector] public OnHealthChangedDelegate onHealthChangedCallback;
     [Space(5)]
 
     public PlayerStateList pState;
@@ -378,6 +380,11 @@ public class PlayerController : MonoBehaviour
             if(health != value)
             {
                 health = Mathf.Clamp(value, 0, maxHealth);
+
+                if(onHealthChangedCallback != null)
+                {
+                    onHealthChangedCallback.Invoke();
+                }
             }
         }
 
