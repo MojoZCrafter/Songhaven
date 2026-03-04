@@ -340,7 +340,7 @@ public class PlayerController : MonoBehaviour
         {
             if(Time.timeScale < 1)
             {
-                Time.timeScale += Time.deltaTime * restoreTimeSpeed;
+                Time.timeScale += Time.unscaledDeltaTime * restoreTimeSpeed;
             }
             else
             {
@@ -368,8 +368,8 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator StartTimeAgain(float _delay)
     {
+        yield return new WaitForSecondsRealtime(_delay);
         restoreTime = true;
-        yield return new WaitForSeconds(_delay);
     }
 
     public int Health
