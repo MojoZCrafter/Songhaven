@@ -40,6 +40,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Vector2 SideAttackArea, UpAttackArea, DownAttackArea;
     [SerializeField] LayerMask attackableLayer;
     [SerializeField] float damage;
+    bool restoreTime;
+    float restoreTimeSpeed;
     [Space(5)]
     
     [Header("Recoil Settings ")]
@@ -53,10 +55,15 @@ public class PlayerController : MonoBehaviour
     [Header("Health Settings")]
     public int health;
     public int maxHealth;
+    [SerializeField] GameObject damageParticle;
+    [SerializeField] float hitFlashSpeed;
+    public delegate void OnHealthChangedDelegate();
+    [HideInInspector] public OnHealthChangedDelegate onHealthChangedCallback;
     [Space(5)]
 
     public PlayerStateList pState;
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
     private float xAxis, yAxis;
     private float gravity;
     private bool canDash;
@@ -79,7 +86,7 @@ public class PlayerController : MonoBehaviour
         {
             Instance = this;
         }
-        health = maxHealth;
+        Health = maxHealth;
         DontDestroyOnLoad(gameObject);
     }
 
@@ -87,6 +94,7 @@ public class PlayerController : MonoBehaviour
     {
         pState = GetComponent<PlayerStateList>();
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         gravity = rb.gravityScale;
         anim = GetComponent<Animator>();
         canDash = true;
@@ -112,11 +120,14 @@ public class PlayerController : MonoBehaviour
         Jump();
         StartDash();
         Attack();
-        Recoil();
+        RestoreTimeScale();
+        FlashWhileInvincible();
     }
 
     private void FixedUpdate()
     {
+        if (pState.dashing) return;
+        Recoil();
         if (pState.cutscene) return;
     }
 
@@ -305,21 +316,78 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(float _damage)
     {
-        health -= Mathf.RoundToInt(_damage);
+        Health -= Mathf.RoundToInt(_damage);
         StartCoroutine(StopTakingDamage());
     }
 
     IEnumerator StopTakingDamage()
     {
         pState.invincible = true;
-        ClampHealth();
+        GameObject _damageParticles = Instantiate(damageParticle, transform.position, Quaternion.identity);
+        Destroy(_damageParticles, 1.5f);
         yield return new WaitForSeconds(1f);
         pState.invincible = false;
     }
 
-    void ClampHealth()
+    void FlashWhileInvincible()
     {
-        health = Mathf.Clamp(health, 0, maxHealth);
+        sr.material.color = pState.invincible ? Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time * hitFlashSpeed, 1.0f)) : Color.white;
+    }
+
+    void RestoreTimeScale()
+    {
+        if(restoreTime)
+        {
+            if(Time.timeScale < 1)
+            {
+                Time.timeScale += Time.unscaledDeltaTime * restoreTimeSpeed;
+            }
+            else
+            {
+                Time.timeScale = 1;
+                restoreTime = false;
+            }
+        }
+    }
+
+    public void HitStopTime(float _newTimeScale, int _restoreSpeed, float _delay)
+    {
+        restoreTimeSpeed = _restoreSpeed;
+        Time.timeScale = _newTimeScale;
+
+        if(_delay > 0)
+        {
+            StopCoroutine(StartTimeAgain(_delay));
+            StartCoroutine(StartTimeAgain(_delay));
+        }
+        else
+        {
+            restoreTime = true;
+        }
+    }
+
+    IEnumerator StartTimeAgain(float _delay)
+    {
+        yield return new WaitForSecondsRealtime(_delay);
+        restoreTime = true;
+    }
+
+    public int Health
+    {
+        get { return health; }
+        set 
+        {
+            if(health != value)
+            {
+                health = Mathf.Clamp(value, 0, maxHealth);
+
+                if(onHealthChangedCallback != null)
+                {
+                    onHealthChangedCallback.Invoke();
+                }
+            }
+        }
+
     }
 
     public bool Grounded()
