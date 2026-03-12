@@ -66,9 +66,15 @@ public class PlayerController : MonoBehaviour
         canDash = true;
     }
 
+    public bool isFrozen = false;
+
     // Update is called once per frame
     void Update()
     {
+       {
+        if (isFrozen)
+            return;
+       }
         if(pState.cutscene) return;
         GetInputs();
         UpdateJumpVariables();
