@@ -18,9 +18,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetMouseButtonDown(0))
+    public void OnDialogueBoxClicked()
         {
             if (textComponent.text == lines[index])
             {
@@ -32,7 +30,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
                 textComponent.text = lines[index];
             }
         }
-    }
 
     void StartDialogue()
     {
