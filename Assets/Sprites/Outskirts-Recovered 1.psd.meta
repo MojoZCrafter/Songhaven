@@ -80,6 +80,9 @@ TextureImporter:
   - first:
       213: 7442791485565772653
     second: Outskirts-Recovered 1_25
+  - first:
+      213: 6604046892403032711
+    second: Outskirts-Recovered 1_26
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,20 +181,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 3673
-        width: 744
-        height: 382
+        x: 90
+        y: 3675
+        width: 743
+        height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c30bd41117d1507429040d1816636809
-      internalID: 1871865646
+      spriteID: 49f498aa322956b30800000000000000
+      internalID: 4279987702768160660
       vertices: []
       indices: 
       edges: []
@@ -200,20 +203,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_1
       rect:
         serializedVersion: 2
-        x: 1019
+        x: 1020
         y: 3719
-        width: 524
-        height: 212
+        width: 523
+        height: 211
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 060a810097c0215488819f6e74722375
-      internalID: -1836297810
+      spriteID: 7714f4c849aa28130800000000000000
+      internalID: 3567601409816740215
       vertices: []
       indices: 
       edges: []
@@ -222,9 +225,9 @@ TextureImporter:
       name: Outskirts-Recovered 1_2
       rect:
         serializedVersion: 2
-        x: 2166
-        y: 3749
-        width: 346
+        x: 2175
+        y: 3746
+        width: 372
         height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -232,10 +235,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 78bc3ca1d21bd3b44b979f57c00aba6f
-      internalID: 103052494
+      spriteID: 1f747e45d58e335b0800000000000000
+      internalID: -5389708841478305807
       vertices: []
       indices: 
       edges: []
@@ -244,20 +247,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_3
       rect:
         serializedVersion: 2
-        x: 2631
-        y: 3757
-        width: 84
-        height: 198
+        x: 2640
+        y: 3753
+        width: 109
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 915dfcd21d7904441b8e62b91d3812a1
-      internalID: -1190870944
+      spriteID: 58c68a61ff1f67440800000000000000
+      internalID: 4933396519730048133
       vertices: []
       indices: 
       edges: []
@@ -266,20 +269,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_4
       rect:
         serializedVersion: 2
-        x: 57
+        x: 58
         y: 3381
-        width: 218
-        height: 246
+        width: 215
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 365e683f7d854744883fbbeb3ee506bf
-      internalID: -990055845
+      spriteID: e32e4b23e50f33a70800000000000000
+      internalID: 8805645983807758910
       vertices: []
       indices: 
       edges: []
@@ -289,19 +292,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 361
-        y: 3379
-        width: 162
-        height: 160
+        y: 3377
+        width: 161
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2bc48b4dfb675194ba56d700eef0a99d
-      internalID: -1859174212
+      spriteID: 79513daa9a276dfd0800000000000000
+      internalID: -2317538885194541673
       vertices: []
       indices: 
       edges: []
@@ -311,19 +314,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 665
-        y: 3409
+        y: 3408
         width: 40
-        height: 116
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 42400de352a7636448559c24a87227a2
-      internalID: 1047106799
+      spriteID: 22f3e4574ad2d9e90800000000000000
+      internalID: -7017402460007416030
       vertices: []
       indices: 
       edges: []
@@ -333,19 +336,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 787
-        y: 3409
-        width: 62
-        height: 114
+        y: 3408
+        width: 61
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c4a75f0a1bec6644d8b87d5359340fa0
-      internalID: 18415137
+      spriteID: 2eab5ef7ef1931e40800000000000000
+      internalID: 5626000881769364194
       vertices: []
       indices: 
       edges: []
@@ -356,18 +359,18 @@ TextureImporter:
         serializedVersion: 2
         x: 865
         y: 3415
-        width: 62
-        height: 118
+        width: 61
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6fa6556edd19c614193dd2188e6284a0
-      internalID: 1084855478
+      spriteID: 7fca8638a79b52e10800000000000000
+      internalID: 2172346331117956343
       vertices: []
       indices: 
       edges: []
@@ -377,19 +380,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1475
-        y: 3515
-        width: 215
-        height: 157
+        y: 3516
+        width: 214
+        height: 155
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e5f0b0d3b4b407244b835433cb639992
-      internalID: -607466683
+      spriteID: f314bacab303d22f0800000000000000
+      internalID: -996086909720903361
       vertices: []
       indices: 
       edges: []
@@ -398,8 +401,8 @@ TextureImporter:
       name: Outskirts-Recovered 1_10
       rect:
         serializedVersion: 2
-        x: 2021
-        y: 3045
+        x: 2055
+        y: 3040
         width: 102
         height: 512
       alignment: 0
@@ -408,10 +411,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a471faa40815866489213f1d1135b5b4
-      internalID: -1526435893
+      spriteID: 8ebab5cc50e0f8ee0800000000000000
+      internalID: -1256770352946893848
       vertices: []
       indices: 
       edges: []
@@ -420,20 +423,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_11
       rect:
         serializedVersion: 2
-        x: 2231
-        y: 3371
+        x: 2265
+        y: 3367
         width: 344
-        height: 186
+        height: 185
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 47384f0a2d96b744998d59dba9c6cbd0
-      internalID: -1508529439
+      spriteID: 1998e95d03a1c79d0800000000000000
+      internalID: -2775314473322378863
       vertices: []
       indices: 
       edges: []
@@ -442,20 +445,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_12
       rect:
         serializedVersion: 2
-        x: 2665
-        y: 3137
-        width: 154
-        height: 436
+        x: 2699
+        y: 3134
+        width: 153
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0a4acbd8699412c4b8a6a6d6b66e0a0a
-      internalID: 1869837274
+      spriteID: 6dabc13841b089790800000000000000
+      internalID: -7523250994795463978
       vertices: []
       indices: 
       edges: []
@@ -464,9 +467,9 @@ TextureImporter:
       name: Outskirts-Recovered 1_13
       rect:
         serializedVersion: 2
-        x: 2925
-        y: 3221
-        width: 116
+        x: 2960
+        y: 3217
+        width: 114
         height: 338
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -474,10 +477,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8409e30398f96e9428131e16cdd5746c
-      internalID: 816043199
+      spriteID: ebf00e5c695a11bb0800000000000000
+      internalID: -4967006847029473346
       vertices: []
       indices: 
       edges: []
@@ -486,20 +489,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_14
       rect:
         serializedVersion: 2
-        x: 3191
-        y: 3099
+        x: 3225
+        y: 3094
         width: 114
-        height: 470
+        height: 471
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3c74c0bad6f63b245bf54535bbde8e62
-      internalID: 216097520
+      spriteID: 39ab622a43a31ae00800000000000000
+      internalID: 1054187785514564243
       vertices: []
       indices: 
       edges: []
@@ -508,20 +511,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_15
       rect:
         serializedVersion: 2
-        x: 3385
-        y: 3269
-        width: 468
-        height: 302
+        x: 3419
+        y: 3266
+        width: 467
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 55c6e3f5b38ca3d45903d14452ae10d1
-      internalID: -216329298
+      spriteID: 81d0fbaa326f0fdc0800000000000000
+      internalID: -3607112668474831592
       vertices: []
       indices: 
       edges: []
@@ -530,20 +533,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_16
       rect:
         serializedVersion: 2
-        x: 601
-        y: 3403
-        width: 32
-        height: 84
+        x: 3468
+        y: 3321
+        width: 356
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6985fa8f0b86ec04193d0af28aa1c3c0
-      internalID: -757884365
+      spriteID: 87c1391b17e73bb50800000000000000
+      internalID: 6607764105058262136
       vertices: []
       indices: 
       edges: []
@@ -552,20 +555,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_17
       rect:
         serializedVersion: 2
-        x: 745
-        y: 3411
-        width: 42
-        height: 90
+        x: 600
+        y: 3404
+        width: 33
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 939f36f90d1dfba499e88f5758b9b742
-      internalID: -2123150451
+      spriteID: 85659e84c0e14d530800000000000000
+      internalID: 3878758217184532056
       vertices: []
       indices: 
       edges: []
@@ -574,20 +577,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_18
       rect:
         serializedVersion: 2
-        x: 159
-        y: 2627
-        width: 331
-        height: 528
+        x: 746
+        y: 3411
+        width: 41
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 35d17cec350f85744857ff1cfb235aa0
-      internalID: -777261713
+      spriteID: 77d78fb25f741e510800000000000000
+      internalID: 1576620462886649207
       vertices: []
       indices: 
       edges: []
@@ -596,20 +599,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_19
       rect:
         serializedVersion: 2
-        x: 1085
-        y: 2707
-        width: 358
-        height: 630
+        x: 160
+        y: 2628
+        width: 329
+        height: 527
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a73c397ff262fe54ba6d1a0341f04bb9
-      internalID: -2079276994
+      spriteID: 94de917e624ff3000800000000000000
+      internalID: 18001371455941961
       vertices: []
       indices: 
       edges: []
@@ -618,20 +621,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_20
       rect:
         serializedVersion: 2
-        x: 1637
-        y: 2583
-        width: 13
-        height: 7
+        x: 1084
+        y: 2708
+        width: 358
+        height: 629
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8a72f8abfc98252488a63f78f67e3a88
-      internalID: -2068359528
+      spriteID: c2ca1440f4e1b2080800000000000000
+      internalID: -9211235288133555156
       vertices: []
       indices: 
       edges: []
@@ -640,20 +643,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_21
       rect:
         serializedVersion: 2
-        x: 37
-        y: 1639
-        width: 470
-        height: 796
+        x: 2029
+        y: 2673
+        width: 1732
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7ed21fe340ca1a44a910f1e37fbea1b5
-      internalID: 2138136418
+      spriteID: 105398fdb3be90820800000000000000
+      internalID: 2885095678693422337
       vertices: []
       indices: 
       edges: []
@@ -662,20 +665,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_22
       rect:
         serializedVersion: 2
-        x: 703
-        y: 2165
-        width: 968
-        height: 400
+        x: 1671
+        y: 2579
+        width: 13
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cccade7a14d2ef64089b9c234aec80cc
-      internalID: -2049351423
+      spriteID: b9c0f9ecb53e69ec0800000000000000
+      internalID: -3560408471941739365
       vertices: []
       indices: 
       edges: []
@@ -684,20 +687,20 @@ TextureImporter:
       name: Outskirts-Recovered 1_23
       rect:
         serializedVersion: 2
-        x: 11
-        y: 199
-        width: 554
-        height: 1278
+        x: 36
+        y: 1639
+        width: 472
+        height: 794
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bbd96b55422ce844fa7fc215c45699b5
-      internalID: -363121860
+      spriteID: c5ac227493ebbc640800000000000000
+      internalID: 5101380156143094364
       vertices: []
       indices: 
       edges: []
@@ -706,20 +709,64 @@ TextureImporter:
       name: Outskirts-Recovered 1_24
       rect:
         serializedVersion: 2
-        x: 785
-        y: 1451
-        width: 352
-        height: 420
+        x: 738
+        y: 2161
+        width: 967
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7cd915d8fec6a1a45a1efa56c78ad10d
-      internalID: 75299249
+      spriteID: 97c18d5455c62c990800000000000000
+      internalID: -7367206926924899207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_25
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 196
+        width: 553
+        height: 1278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63237a2c6b1a4760800000000000000
+      internalID: 7442791485565772653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_26
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1448
+        width: 350
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78284bda8a946ab50800000000000000
+      internalID: 6604046892403032711
       vertices: []
       indices: 
       edges: []
@@ -728,7 +775,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 19e27f875d793ee4b886d0a00fa334a1
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -738,31 +785,33 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Outskirts-Recovered 1_0: 1871865646
-      Outskirts-Recovered 1_1: -1836297810
-      Outskirts-Recovered 1_10: -1526435893
-      Outskirts-Recovered 1_11: -1508529439
-      Outskirts-Recovered 1_12: 1869837274
-      Outskirts-Recovered 1_13: 816043199
-      Outskirts-Recovered 1_14: 216097520
-      Outskirts-Recovered 1_15: -216329298
-      Outskirts-Recovered 1_16: -757884365
-      Outskirts-Recovered 1_17: -2123150451
-      Outskirts-Recovered 1_18: -777261713
-      Outskirts-Recovered 1_19: -2079276994
-      Outskirts-Recovered 1_2: 103052494
-      Outskirts-Recovered 1_20: -2068359528
-      Outskirts-Recovered 1_21: 2138136418
-      Outskirts-Recovered 1_22: -2049351423
-      Outskirts-Recovered 1_23: -363121860
-      Outskirts-Recovered 1_24: 75299249
-      Outskirts-Recovered 1_3: -1190870944
-      Outskirts-Recovered 1_4: -990055845
-      Outskirts-Recovered 1_5: -1859174212
-      Outskirts-Recovered 1_6: 1047106799
-      Outskirts-Recovered 1_7: 18415137
-      Outskirts-Recovered 1_8: 1084855478
-      Outskirts-Recovered 1_9: -607466683
+      Outskirts-Recovered 1_0: 4279987702768160660
+      Outskirts-Recovered 1_1: 3567601409816740215
+      Outskirts-Recovered 1_10: -1256770352946893848
+      Outskirts-Recovered 1_11: -2775314473322378863
+      Outskirts-Recovered 1_12: -7523250994795463978
+      Outskirts-Recovered 1_13: -4967006847029473346
+      Outskirts-Recovered 1_14: 1054187785514564243
+      Outskirts-Recovered 1_15: -3607112668474831592
+      Outskirts-Recovered 1_16: 6607764105058262136
+      Outskirts-Recovered 1_17: 3878758217184532056
+      Outskirts-Recovered 1_18: 1576620462886649207
+      Outskirts-Recovered 1_19: 18001371455941961
+      Outskirts-Recovered 1_2: -5389708841478305807
+      Outskirts-Recovered 1_20: -9211235288133555156
+      Outskirts-Recovered 1_21: 2885095678693422337
+      Outskirts-Recovered 1_22: -3560408471941739365
+      Outskirts-Recovered 1_23: 5101380156143094364
+      Outskirts-Recovered 1_24: -7367206926924899207
+      Outskirts-Recovered 1_25: 7442791485565772653
+      Outskirts-Recovered 1_26: 6604046892403032711
+      Outskirts-Recovered 1_3: 4933396519730048133
+      Outskirts-Recovered 1_4: 8805645983807758910
+      Outskirts-Recovered 1_5: -2317538885194541673
+      Outskirts-Recovered 1_6: -7017402460007416030
+      Outskirts-Recovered 1_7: 5626000881769364194
+      Outskirts-Recovered 1_8: 2172346331117956343
+      Outskirts-Recovered 1_9: -996086909720903361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
