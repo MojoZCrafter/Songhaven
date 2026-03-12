@@ -530,6 +530,10 @@ PrefabInstance:
       propertyPath: transitionTo
       value: Outskirts_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3382700662025018917, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
+      propertyPath: exitDirection.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3700527715722563691, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: m_Name
       value: Top Start Point
@@ -1049,6 +1053,14 @@ PrefabInstance:
       propertyPath: BoundingShape2D
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6111182563125099829, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
+      propertyPath: allVirtualCameras.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111182563125099829, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
+      propertyPath: 'allVirtualCameras.Array.data[0]'
+      value: 
+      objectReference: {fileID: 568697923}
     - target: {fileID: 6238421021422116997, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_Name
       value: '[Camera]'
@@ -1086,6 +1098,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6467757228160978446, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
   m_PrefabInstance: {fileID: 568697921}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &568697923 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8505949083371222090, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
+  m_PrefabInstance: {fileID: 568697921}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &568697926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5057,7 +5080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3382700662025018917, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: transitionTo
-      value: Outskirts_2
+      value: Outskirts_1
       objectReference: {fileID: 0}
     - target: {fileID: 3382700662025018917, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: exitDirection.x
@@ -5065,7 +5088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3700527715722563691, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: m_Name
-      value: Top Start Point
+      value: Left Start Point
       objectReference: {fileID: 0}
     - target: {fileID: 5319378428940672662, guid: 5a0a84bee03b2094792890b4180a2e6b, type: 3}
       propertyPath: m_LocalPosition.x
