@@ -1,0 +1,770 @@
+fileFormatVersion: 2
+guid: 96255d0f173c6cd48859de108c16a3e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4279987702768160660
+    second: Outskirts-Recovered 1_0
+  - first:
+      213: 3567601409816740215
+    second: Outskirts-Recovered 1_1
+  - first:
+      213: -5389708841478305807
+    second: Outskirts-Recovered 1_2
+  - first:
+      213: 4933396519730048133
+    second: Outskirts-Recovered 1_3
+  - first:
+      213: 8805645983807758910
+    second: Outskirts-Recovered 1_4
+  - first:
+      213: -2317538885194541673
+    second: Outskirts-Recovered 1_5
+  - first:
+      213: -7017402460007416030
+    second: Outskirts-Recovered 1_6
+  - first:
+      213: 5626000881769364194
+    second: Outskirts-Recovered 1_7
+  - first:
+      213: 2172346331117956343
+    second: Outskirts-Recovered 1_8
+  - first:
+      213: -996086909720903361
+    second: Outskirts-Recovered 1_9
+  - first:
+      213: -1256770352946893848
+    second: Outskirts-Recovered 1_10
+  - first:
+      213: -2775314473322378863
+    second: Outskirts-Recovered 1_11
+  - first:
+      213: -7523250994795463978
+    second: Outskirts-Recovered 1_12
+  - first:
+      213: -4967006847029473346
+    second: Outskirts-Recovered 1_13
+  - first:
+      213: 1054187785514564243
+    second: Outskirts-Recovered 1_14
+  - first:
+      213: -3607112668474831592
+    second: Outskirts-Recovered 1_15
+  - first:
+      213: 6607764105058262136
+    second: Outskirts-Recovered 1_16
+  - first:
+      213: 3878758217184532056
+    second: Outskirts-Recovered 1_17
+  - first:
+      213: 1576620462886649207
+    second: Outskirts-Recovered 1_18
+  - first:
+      213: 18001371455941961
+    second: Outskirts-Recovered 1_19
+  - first:
+      213: -9211235288133555156
+    second: Outskirts-Recovered 1_20
+  - first:
+      213: 2885095678693422337
+    second: Outskirts-Recovered 1_21
+  - first:
+      213: -3560408471941739365
+    second: Outskirts-Recovered 1_22
+  - first:
+      213: 5101380156143094364
+    second: Outskirts-Recovered 1_23
+  - first:
+      213: -7367206926924899207
+    second: Outskirts-Recovered 1_24
+  - first:
+      213: 7442791485565772653
+    second: Outskirts-Recovered 1_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 3673
+        width: 744
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30bd41117d1507429040d1816636809
+      internalID: 1871865646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_1
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 3719
+        width: 524
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060a810097c0215488819f6e74722375
+      internalID: -1836297810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_2
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 3749
+        width: 346
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bc3ca1d21bd3b44b979f57c00aba6f
+      internalID: 103052494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_3
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 3757
+        width: 84
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915dfcd21d7904441b8e62b91d3812a1
+      internalID: -1190870944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 3381
+        width: 218
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365e683f7d854744883fbbeb3ee506bf
+      internalID: -990055845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_5
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 3379
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc48b4dfb675194ba56d700eef0a99d
+      internalID: -1859174212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_6
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 3409
+        width: 40
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42400de352a7636448559c24a87227a2
+      internalID: 1047106799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_7
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 3409
+        width: 62
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a75f0a1bec6644d8b87d5359340fa0
+      internalID: 18415137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_8
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 3415
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa6556edd19c614193dd2188e6284a0
+      internalID: 1084855478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_9
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 3515
+        width: 215
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f0b0d3b4b407244b835433cb639992
+      internalID: -607466683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_10
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 3045
+        width: 102
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a471faa40815866489213f1d1135b5b4
+      internalID: -1526435893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_11
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 3371
+        width: 344
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47384f0a2d96b744998d59dba9c6cbd0
+      internalID: -1508529439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_12
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 3137
+        width: 154
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4acbd8699412c4b8a6a6d6b66e0a0a
+      internalID: 1869837274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_13
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 3221
+        width: 116
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8409e30398f96e9428131e16cdd5746c
+      internalID: 816043199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_14
+      rect:
+        serializedVersion: 2
+        x: 3191
+        y: 3099
+        width: 114
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c74c0bad6f63b245bf54535bbde8e62
+      internalID: 216097520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_15
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 3269
+        width: 468
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c6e3f5b38ca3d45903d14452ae10d1
+      internalID: -216329298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_16
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 3403
+        width: 32
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6985fa8f0b86ec04193d0af28aa1c3c0
+      internalID: -757884365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_17
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 3411
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939f36f90d1dfba499e88f5758b9b742
+      internalID: -2123150451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2627
+        width: 331
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d17cec350f85744857ff1cfb235aa0
+      internalID: -777261713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_19
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2707
+        width: 358
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73c397ff262fe54ba6d1a0341f04bb9
+      internalID: -2079276994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_20
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2583
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a72f8abfc98252488a63f78f67e3a88
+      internalID: -2068359528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1639
+        width: 470
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed21fe340ca1a44a910f1e37fbea1b5
+      internalID: 2138136418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_22
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 2165
+        width: 968
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccade7a14d2ef64089b9c234aec80cc
+      internalID: -2049351423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 199
+        width: 554
+        height: 1278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd96b55422ce844fa7fc215c45699b5
+      internalID: -363121860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts-Recovered 1_24
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1451
+        width: 352
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd915d8fec6a1a45a1efa56c78ad10d
+      internalID: 75299249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 19e27f875d793ee4b886d0a00fa334a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Outskirts-Recovered 1_0: 1871865646
+      Outskirts-Recovered 1_1: -1836297810
+      Outskirts-Recovered 1_10: -1526435893
+      Outskirts-Recovered 1_11: -1508529439
+      Outskirts-Recovered 1_12: 1869837274
+      Outskirts-Recovered 1_13: 816043199
+      Outskirts-Recovered 1_14: 216097520
+      Outskirts-Recovered 1_15: -216329298
+      Outskirts-Recovered 1_16: -757884365
+      Outskirts-Recovered 1_17: -2123150451
+      Outskirts-Recovered 1_18: -777261713
+      Outskirts-Recovered 1_19: -2079276994
+      Outskirts-Recovered 1_2: 103052494
+      Outskirts-Recovered 1_20: -2068359528
+      Outskirts-Recovered 1_21: 2138136418
+      Outskirts-Recovered 1_22: -2049351423
+      Outskirts-Recovered 1_23: -363121860
+      Outskirts-Recovered 1_24: 75299249
+      Outskirts-Recovered 1_3: -1190870944
+      Outskirts-Recovered 1_4: -990055845
+      Outskirts-Recovered 1_5: -1859174212
+      Outskirts-Recovered 1_6: 1047106799
+      Outskirts-Recovered 1_7: 18415137
+      Outskirts-Recovered 1_8: 1084855478
+      Outskirts-Recovered 1_9: -607466683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
