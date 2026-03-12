@@ -69,6 +69,7 @@ public class PlayerController : MonoBehaviour
     private bool canDash;
     private bool dashed;
     private Animator anim;
+    public bool isFrozen = false;
 
 
 
