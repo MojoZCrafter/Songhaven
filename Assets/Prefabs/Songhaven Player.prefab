@@ -782,13 +782,14 @@ MonoBehaviour:
   damage: 4
   recoilXSteps: 5
   recoilYSteps: 5
-  recoilXSpeed: 25
-  recoilYSpeed: 25
+  recoilXSpeed: 10
+  recoilYSpeed: 10
   health: 0
   maxHealth: 5
   damageParticle: {fileID: 9014786193898337777}
-  hitFlashSpeed: 0
+  hitFlashSpeed: 0.25
   pState: {fileID: 0}
+  isFrozen: 0
 --- !u!114 &2320327699019876247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1238,15 +1239,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2217352884288242492, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.915344
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2217352884288242492, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7802286
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2217352884288242492, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.563014
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2217352884288242492, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1278,11 +1279,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3276625981580458322, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
       propertyPath: playOnAwake
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3276625981580458322, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3276625981580458322, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 8
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3276625981580458322, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
@@ -1290,11 +1295,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3276625981580458322, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 3
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8184068516660526627, guid: c05fec463973ec1478675c8db1afcf52, type: 3}
       propertyPath: m_Name
-      value: Hit Particle (1)
+      value: Hit Particle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
