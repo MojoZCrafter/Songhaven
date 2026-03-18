@@ -236,6 +236,7 @@ public class PlayerController : MonoBehaviour
 
     public IEnumerator WalkIntoNewScene(Vector2 _exitDir, float _delay)
     {
+        pState.invincible = true;
         if(_exitDir.y > 0)
         {
             rb.linearVelocity = jumpForce * _exitDir;
@@ -249,6 +250,7 @@ public class PlayerController : MonoBehaviour
 
         Flip();
         yield return new WaitForSeconds(_delay);
+        pState.invincible = false;
         pState.cutscene = false;
     }
 
@@ -336,6 +338,7 @@ public class PlayerController : MonoBehaviour
 
     void FlashWhileInvincible()
     {
+        if (pState.cutscene) return;
         sr.material.color = pState.invincible ? Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time * hitFlashSpeed, 1.0f)) : Color.white;
     }
 
