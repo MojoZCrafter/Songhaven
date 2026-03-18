@@ -18,6 +18,7 @@ public class SceneTransition : MonoBehaviour
             PlayerController.Instance.transform.position = startPoint.position;
             StartCoroutine(PlayerController.Instance.WalkIntoNewScene(exitDirection, exitTime));
         }
+        StartCoroutine(UIManager.Instance.sceneFader.Fade(SceneFader.FadeDirection.Out));
     }
 
     private void OnTriggerEnter2D(Collider2D _other)
@@ -26,7 +27,9 @@ public class SceneTransition : MonoBehaviour
         {
             GameManager.Instance.transitionedFromScene = SceneManager.GetActiveScene().name;
             PlayerController.Instance.pState.cutscene = true;
-            SceneManager.LoadScene(transitionTo);
+            PlayerController.Instance.pState.invincible = true;
+
+            StartCoroutine(UIManager.Instance.sceneFader.FadeAndLoadScene(SceneFader.FadeDirection.In, transitionTo));
         }
     }
 
