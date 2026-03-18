@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8562791392659522607}
   - component: {fileID: 895099046080356137}
   m_Layer: 0
-  m_Name: Health Container
+  m_Name: HeartContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 6236893891111309686}
   - component: {fileID: 2050397747380035192}
   m_Layer: 0
-  m_Name: Health fill
+  m_Name: HeartFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
