@@ -8548,7 +8548,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3165119312947817907, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4160591030844868503, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: heartContainerPrefab
@@ -8720,3 +8720,4 @@ SceneRoots:
   - {fileID: 3412248982394711926}
   - {fileID: 2115204107294770815}
   - {fileID: 8568147564719732973}
+  - {fileID: 964137184}
