@@ -1047,7 +1047,7 @@ TextureImporter:
       Outskirts-Recovered-Recovered_8: 3690330035455176299
       Outskirts-Recovered-Recovered_9: -2458925736847136259
   mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
