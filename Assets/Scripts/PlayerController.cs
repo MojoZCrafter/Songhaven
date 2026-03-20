@@ -398,6 +398,14 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    public void Heal()
+    {
+        if(Health < maxHealth)
+        {
+            Health++;
+        }
+    }
+
     public bool Grounded()
     {
         if(Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
