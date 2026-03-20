@@ -3930,7 +3930,7 @@ Transform:
   m_GameObject: {fileID: 964137180}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 73.7, y: -1.27, z: 0}
+  m_LocalPosition: {x: 67.96, y: 27.53, z: 0}
   m_LocalScale: {x: 0.14199212, y: 0.14199212, z: 0.14199212}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8546,6 +8546,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3165119312947817907, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4160591030844868503, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: heartContainerPrefab
       value: 
