@@ -3812,7 +3812,7 @@ GameObject:
   - component: {fileID: 964137182}
   - component: {fileID: 964137181}
   m_Layer: 0
-  m_Name: Whole Note_0
+  m_Name: Whole Note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
