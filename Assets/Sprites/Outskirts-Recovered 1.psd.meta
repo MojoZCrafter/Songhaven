@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Outskirts-Recovered 1_0: 4279987702768160660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
