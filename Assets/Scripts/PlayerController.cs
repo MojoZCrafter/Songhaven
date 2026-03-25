@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
     [Space(5)]
 
     public PlayerStateList pState;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private SpriteRenderer sr;
     private float xAxis, yAxis;
     private float gravity;
