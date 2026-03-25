@@ -118,6 +118,7 @@ public class PlayerController : MonoBehaviour
         if(pState.cutscene) return;
         GetInputs();
         UpdateJumpVariables();
+        RestoreTimeScale();
 
         if(pState.dashing) return;
         Flip();
@@ -125,7 +126,6 @@ public class PlayerController : MonoBehaviour
         Jump();
         StartDash();
         Attack();
-        RestoreTimeScale();
         FlashWhileInvincible();
     }
 
