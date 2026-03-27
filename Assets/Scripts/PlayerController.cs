@@ -111,21 +111,24 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-       {
-        if (isFrozen)
-            return;
-       }
+        if(isFrozen) return;
         if(pState.cutscene) return;
-        GetInputs();
+        if(pState.alive)
+        {
+            GetInputs();
+        }
         UpdateJumpVariables();
         RestoreTimeScale();
 
         if(pState.dashing) return;
-        Flip();
-        Move();
-        Jump();
-        StartDash();
-        Attack();
+        if(pState.alive)
+        {
+            Flip();
+            Move();
+            Jump();
+            StartDash();
+            Attack();
+        }
         FlashWhileInvincible();
     }
 
@@ -324,7 +327,15 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage(float _damage)
     {
         Health -= Mathf.RoundToInt(_damage);
-        StartCoroutine(StopTakingDamage());
+        if(Health <= 0)
+        {
+            Health = 0;
+            StartCoroutine(Death());
+        }
+        else
+        {
+            StartCoroutine(StopTakingDamage());
+        }
     }
 
     IEnumerator StopTakingDamage()
@@ -378,6 +389,17 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(_delay);
         restoreTime = true;
+    }
+
+    IEnumerator Death()
+    {
+        pState.alive = false;
+        Time.timeScale =1f;
+        GameObject _damageParticles = Instantiate(damageParticle, transform.position, Quaternion.identity);
+        Destroy(_damageParticles, 1.5f);
+
+        yield return new WaitForSeconds(0.9f);
+        StartCoroutine(UIManager.Instance.ActivateDeathScreen());
     }
 
     public int Health

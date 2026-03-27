@@ -789,6 +789,7 @@ MonoBehaviour:
   damageParticle: {fileID: 9014786193898337777}
   hitFlashSpeed: 0.25
   pState: {fileID: 0}
+  rb: {fileID: 0}
   isFrozen: 0
 --- !u!114 &2320327699019876247
 MonoBehaviour:
@@ -809,6 +810,7 @@ MonoBehaviour:
   lookingRight: 0
   invincible: 0
   cutscene: 0
+  alive: 1
 --- !u!1 &5280202595306118624
 GameObject:
   m_ObjectHideFlags: 0
