@@ -1,9 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
     public SceneFader sceneFader;
     public static UIManager Instance;
+    [SerializeField] GameObject deathScreen;
 
     private void Awake()
     {
@@ -17,5 +20,18 @@ public class UIManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         sceneFader = GetComponentInChildren<SceneFader>();
+    }
+    public IEnumerator ActivateDeathScreen()
+    {
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine(sceneFader.Fade(SceneFader.FadeDirection.In));
+        yield return new WaitForSeconds(0.8f);
+        deathScreen.SetActive(true);
+    }
+    public IEnumerator DeactivateDeathScreen()
+    {
+        yield return new WaitForSeconds(0.5f);
+        deathScreen.SetActive(false);
+        StartCoroutine(sceneFader.Fade(SceneFader.FadeDirection.Out));
     }
 }
