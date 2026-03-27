@@ -185,7 +185,7 @@ Transform:
   m_GameObject: {fileID: 7265066}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -43.71, y: -8, z: -10.126031}
+  m_LocalPosition: {x: -44.35, y: -8, z: -10.126031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -634,7 +634,7 @@ Transform:
   m_GameObject: {fileID: 75862065}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.74, y: -0.67, z: 0}
+  m_LocalPosition: {x: -19.33, y: -0.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1647,7 +1647,7 @@ GameObject:
   - component: {fileID: 420608542}
   - component: {fileID: 420608541}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Fishing Rod Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1937,7 +1937,7 @@ GameObject:
   - component: {fileID: 493624933}
   - component: {fileID: 493624932}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Fishing Rod Rod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7115,7 +7115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5814661594897832555, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.91
+      value: -26.55
       objectReference: {fileID: 0}
     - target: {fileID: 5814661594897832555, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7748,7 +7748,7 @@ Transform:
   m_GameObject: {fileID: 4409610764846664161}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.779999, y: -8, z: -10.126031}
+  m_LocalPosition: {x: -19.419998, y: -8, z: -10.126031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
