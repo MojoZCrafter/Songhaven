@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 1af96429d13978743b3003648e639d38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7578652322559456023
+    second: Outskirts 1_0
+  - first:
+      213: 7055470947732740976
+    second: Outskirts 1_1
+  - first:
+      213: -4127942623218220197
+    second: Outskirts 1_2
+  - first:
+      213: 6921772829498643435
+    second: Outskirts 1_3
+  - first:
+      213: -8045440921280303435
+    second: Outskirts 1_4
+  - first:
+      213: -9026955609338790839
+    second: Outskirts 1_5
+  - first:
+      213: 354410858654277049
+    second: Outskirts 1_6
+  - first:
+      213: 7570773899334006456
+    second: Outskirts 1_7
+  - first:
+      213: -6714878294999896830
+    second: Outskirts 1_8
+  - first:
+      213: 1691706596444980887
+    second: Outskirts 1_9
+  - first:
+      213: -6414807990652346898
+    second: Outskirts 1_10
+  - first:
+      213: 7565059780740674256
+    second: Outskirts 1_11
+  - first:
+      213: 8094418040782131520
+    second: Outskirts 1_12
+  - first:
+      213: -368741959893693386
+    second: Outskirts 1_13
+  - first:
+      213: 994063572434775807
+    second: Outskirts 1_14
+  - first:
+      213: -3844268983895128352
+    second: Outskirts 1_15
+  - first:
+      213: -4752925350574279685
+    second: Outskirts 1_16
+  - first:
+      213: -3816178789851141596
+    second: Outskirts 1_17
+  - first:
+      213: -1189478864746735779
+    second: Outskirts 1_18
+  - first:
+      213: -4697681153169679640
+    second: Outskirts 1_19
+  - first:
+      213: 2247382031587127743
+    second: Outskirts 1_20
+  - first:
+      213: -5980863214119923880
+    second: Outskirts 1_21
+  - first:
+      213: 5473892364569664036
+    second: Outskirts 1_22
+  - first:
+      213: 96930239340436010
+    second: Outskirts 1_23
+  - first:
+      213: 5858438187640576800
+    second: Outskirts 1_24
+  - first:
+      213: -3313476901747691057
+    second: Outskirts 1_25
+  - first:
+      213: 866076306860575269
+    second: Outskirts 1_26
+  - first:
+      213: -4471899710760419696
+    second: Outskirts 1_27
+  - first:
+      213: -8814287184375778111
+    second: Outskirts 1_28
+  - first:
+      213: -6838920837558248483
+    second: Outskirts 1_29
+  - first:
+      213: -1065078865574508345
+    second: Outskirts 1_30
+  - first:
+      213: 467689172759849925
+    second: Outskirts 1_31
+  - first:
+      213: 1047419491800053620
+    second: Outskirts 1_32
+  - first:
+      213: -7774908384606979678
+    second: Outskirts 1_33
+  - first:
+      213: 5972107702571510062
+    second: Outskirts 1_34
+  - first:
+      213: -7922866460665310128
+    second: Outskirts 1_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Outskirts 1_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 3675
+        width: 743
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713785a4228cc2960800000000000000
+      internalID: 7578652322559456023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_1
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 3719
+        width: 523
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bd2ba02711ae160800000000000000
+      internalID: 7055470947732740976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_2
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 3750
+        width: 345
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5342e11e0a96b6c0800000000000000
+      internalID: -4127942623218220197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_3
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 3757
+        width: 84
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3973e17b31f0060800000000000000
+      internalID: 6921772829498643435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_4
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 3381
+        width: 215
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be22b1db1ad85090800000000000000
+      internalID: -8045440921280303435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_5
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 3376
+        width: 161
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c342e33bfc9b280800000000000000
+      internalID: -9026955609338790839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_6
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 3407
+        width: 40
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd11a65cce1be400800000000000000
+      internalID: 354410858654277049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_7
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 3408
+        width: 61
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b63a90ffbac01960800000000000000
+      internalID: 7570773899334006456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_8
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 3414
+        width: 61
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dec8484c5ffc2a0800000000000000
+      internalID: -6714878294999896830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_9
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 3516
+        width: 214
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796c949bf262a7710800000000000000
+      internalID: 1691706596444980887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_10
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 3044
+        width: 102
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed54de9e160af6a0800000000000000
+      internalID: -6414807990652346898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_11
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 3371
+        width: 344
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d274a70acd7cf860800000000000000
+      internalID: 7565059780740674256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_12
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 3138
+        width: 153
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04115507256255070800000000000000
+      internalID: 8094418040782131520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_13
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 3221
+        width: 114
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c41c22427f1eaf0800000000000000
+      internalID: -368741959893693386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_14
+      rect:
+        serializedVersion: 2
+        x: 3191
+        y: 3098
+        width: 114
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe61276d8f9bcd00800000000000000
+      internalID: 994063572434775807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_15
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 3270
+        width: 467
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e601e91ab966aac0800000000000000
+      internalID: -3844268983895128352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3403
+        width: 33
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3321363973a0eb0800000000000000
+      internalID: -4752925350574279685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_17
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 3408
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42aea8f0c953a0bc0800000000000000
+      internalID: -3816178789851141596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2628
+        width: 329
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d579fee464f1e7fe0800000000000000
+      internalID: -1189478864746735779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_19
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 2708
+        width: 358
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea164d61eb7eceb0800000000000000
+      internalID: -4697681153169679640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_20
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 2235
+        width: 322
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1b853fc0e403f10800000000000000
+      internalID: 2247382031587127743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_21
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2583
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f4e204894bffca0800000000000000
+      internalID: -5980863214119923880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_22
+      rect:
+        serializedVersion: 2
+        x: 3062
+        y: 2011
+        width: 483
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ad5e88a1c27fb40800000000000000
+      internalID: 5473892364569664036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_23
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1639
+        width: 472
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a51e30a8d585100800000000000000
+      internalID: 96930239340436010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2165
+        width: 967
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b56e80e7a5d4150800000000000000
+      internalID: 5858438187640576800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_25
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1933
+        width: 149
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1fddb305a2402d0800000000000000
+      internalID: -3313476901747691057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_26
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1942
+        width: 174
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a8ecaffcbe40c00800000000000000
+      internalID: 866076306860575269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_27
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1454
+        width: 350
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ef3fcf7ee90f1c0800000000000000
+      internalID: -4471899710760419696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_28
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 1463
+        width: 663
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4f003818c5da580800000000000000
+      internalID: -8814287184375778111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_29
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 1513
+        width: 231
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbd25e7bb54711a0800000000000000
+      internalID: -6838920837558248483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 197
+        width: 559
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8c7af2a641831f0800000000000000
+      internalID: -1065078865574508345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_31
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 484
+        width: 639
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cba5af13d09d7600800000000000000
+      internalID: 467689172759849925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_32
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 964
+        width: 488
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477ff837a7e298e00800000000000000
+      internalID: 1047419491800053620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_33
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 491
+        width: 502
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a97b46740af91490800000000000000
+      internalID: -7774908384606979678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_34
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 558
+        width: 412
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29262c505031e250800000000000000
+      internalID: 5972107702571510062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outskirts 1_35
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 51
+        width: 349
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05410316ee25c0290800000000000000
+      internalID: -7922866460665310128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Outskirts 1_0: 7578652322559456023
+      Outskirts 1_1: 7055470947732740976
+      Outskirts 1_10: -6414807990652346898
+      Outskirts 1_11: 7565059780740674256
+      Outskirts 1_12: 8094418040782131520
+      Outskirts 1_13: -368741959893693386
+      Outskirts 1_14: 994063572434775807
+      Outskirts 1_15: -3844268983895128352
+      Outskirts 1_16: -4752925350574279685
+      Outskirts 1_17: -3816178789851141596
+      Outskirts 1_18: -1189478864746735779
+      Outskirts 1_19: -4697681153169679640
+      Outskirts 1_2: -4127942623218220197
+      Outskirts 1_20: 2247382031587127743
+      Outskirts 1_21: -5980863214119923880
+      Outskirts 1_22: 5473892364569664036
+      Outskirts 1_23: 96930239340436010
+      Outskirts 1_24: 5858438187640576800
+      Outskirts 1_25: -3313476901747691057
+      Outskirts 1_26: 866076306860575269
+      Outskirts 1_27: -4471899710760419696
+      Outskirts 1_28: -8814287184375778111
+      Outskirts 1_29: -6838920837558248483
+      Outskirts 1_3: 6921772829498643435
+      Outskirts 1_30: -1065078865574508345
+      Outskirts 1_31: 467689172759849925
+      Outskirts 1_32: 1047419491800053620
+      Outskirts 1_33: -7774908384606979678
+      Outskirts 1_34: 5972107702571510062
+      Outskirts 1_35: -7922866460665310128
+      Outskirts 1_4: -8045440921280303435
+      Outskirts 1_5: -9026955609338790839
+      Outskirts 1_6: 354410858654277049
+      Outskirts 1_7: 7570773899334006456
+      Outskirts 1_8: -6714878294999896830
+      Outskirts 1_9: 1691706596444980887
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
