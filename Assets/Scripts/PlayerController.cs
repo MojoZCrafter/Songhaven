@@ -70,6 +70,7 @@ public class PlayerController : MonoBehaviour
     private bool dashed;
     private Animator anim;
     public bool isFrozen = false;
+    bool openMap;
 
 
 
@@ -116,6 +117,7 @@ public class PlayerController : MonoBehaviour
         if(pState.alive)
         {
             GetInputs();
+            ToggleMap();
         }
         UpdateJumpVariables();
         RestoreTimeScale();
@@ -144,6 +146,19 @@ public class PlayerController : MonoBehaviour
         xAxis = Input.GetAxisRaw("Horizontal");
         yAxis = Input.GetAxisRaw("Vertical");
         attack = Input.GetButtonDown("Attack");
+        openMap = Input.GetButton("Map");
+    }
+
+    void ToggleMap()
+    {
+        if(openMap)
+        {
+            UIManager.Instance.mapHandler.SetActive(true);
+        }
+        else
+        {
+            UIManager.Instance.mapHandler.SetActive(false);
+        }
     }
 
     void Flip()

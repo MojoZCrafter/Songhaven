@@ -7891,6 +7891,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1541285157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1956363420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2414322059021867522, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
+  m_PrefabInstance: {fileID: 4432387808981189643}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1980795435
 GameObject:
   m_ObjectHideFlags: 0
@@ -8613,11 +8618,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2602341009860478351, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.738079
+      value: -10.733656
       objectReference: {fileID: 0}
     - target: {fileID: 2602341009860478351, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.0471296
+      value: -7.0471096
       objectReference: {fileID: 0}
     - target: {fileID: 2602341009860478351, guid: b6fde92b3bf2fda459bb0ae77b86c19c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8831,6 +8836,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2414322059021867522, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2616442245118552618, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -8861,12 +8870,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3165119312947817907, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4160591030844868503, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: heartContainerPrefab
       value: 
       objectReference: {fileID: 1872439318}
+    - target: {fileID: 4596209378079374672, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
+      propertyPath: mapHandler
+      value: 
+      objectReference: {fileID: 1956363420}
     - target: {fileID: 4797326019753052370, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -8950,6 +8963,10 @@ PrefabInstance:
     - target: {fileID: 6535229772630340443, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775013079431865185, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
+      propertyPath: m_Color.a
+      value: 0.6156863
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
