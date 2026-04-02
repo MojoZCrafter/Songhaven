@@ -1063,6 +1063,7 @@ GameObject:
   - component: {fileID: 316241205}
   - component: {fileID: 316241204}
   - component: {fileID: 316241203}
+  - component: {fileID: 316241207}
   m_Layer: 5
   m_Name: Dialogue Box 3
   m_TagString: Untagged
@@ -1164,6 +1165,19 @@ RectTransform:
   m_AnchoredPosition: {x: -1019.7, y: -682}
   m_SizeDelta: {x: -2039.313, y: -1411.9491}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &316241207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316241202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5dbaee46c1c464ba55ee95764f32ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiPanel: {fileID: 316241202}
 --- !u!1 &328103857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,7 +1766,7 @@ Transform:
   m_GameObject: {fileID: 473199738}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -42.28321, y: -1.3838801, z: -10.126031}
+  m_LocalPosition: {x: -17.353214, y: -1.3838801, z: -10.126031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7095,7 +7109,7 @@ Transform:
   m_GameObject: {fileID: 638334700006938577}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.35321, y: -1.3838801, z: -10.126031}
+  m_LocalPosition: {x: 7.576785, y: -1.3838801, z: -10.126031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
