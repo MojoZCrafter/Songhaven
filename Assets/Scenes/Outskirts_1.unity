@@ -4777,7 +4777,7 @@ GameObject:
   - component: {fileID: 634656414}
   - component: {fileID: 634656413}
   - component: {fileID: 634656412}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Outskirts 1_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8150,7 +8150,7 @@ GameObject:
   - component: {fileID: 1013606600}
   - component: {fileID: 1013606599}
   - component: {fileID: 1013606598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Outskirts 1_20 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17810,7 +17810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3165119312947817907, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4160591030844868503, guid: 468eb1e99c6560e4385000399a391c53, type: 3}
       propertyPath: heartContainerPrefab

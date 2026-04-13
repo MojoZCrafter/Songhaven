@@ -446,6 +446,7 @@ GameObject:
   - component: {fileID: 2806478768766345225}
   - component: {fileID: 827915479240253594}
   - component: {fileID: 6775013079431865185}
+  - component: {fileID: 2014179159252627741}
   m_Layer: 5
   m_Name: MapHandler
   m_TagString: Untagged
@@ -511,6 +512,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2014179159252627741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2414322059021867522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ca2f7ef5d837647929031a88455311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maps:
+  - {fileID: 4564434621016911787}
+  - {fileID: 1856182653405757892}
+  - {fileID: 6131484887663719743}
+  - {fileID: 6119294536730273293}
 --- !u!1 &2459357915188322620
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2910947979102026850
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1258,6 +1276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneFader: {fileID: 6685759367296538399}
   deathScreen: {fileID: 4443194899731444539}
+  mapHandler: {fileID: 0}
 --- !u!1 &4838150291654218041
 GameObject:
   m_ObjectHideFlags: 0
