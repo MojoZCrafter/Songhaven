@@ -98,9 +98,9 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         gravity = rb.gravityScale;
-        SaveData.Instance.LoadPlayerData();
         anim = GetComponent<Animator>();
         canDash = true;
+        SaveData.Instance.LoadPlayerData();
     }
 
     void OnDrawGizmos()
