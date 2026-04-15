@@ -17679,10 +17679,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 895099046080356137, guid: a8470d54f119df24ab9b108091516073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -878488487181495759, guid: 368afb2d950943e4bb4674ec22c749f5, type: 3}
     - target: {fileID: 1827569518032769125, guid: a8470d54f119df24ab9b108091516073, type: 3}
       propertyPath: m_Name
       value: HeartContainer
       objectReference: {fileID: 0}
+    - target: {fileID: 2050397747380035192, guid: a8470d54f119df24ab9b108091516073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6136675691717247439, guid: 368afb2d950943e4bb4674ec22c749f5, type: 3}
     - target: {fileID: 5692040720747011798, guid: a8470d54f119df24ab9b108091516073, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
