@@ -100,6 +100,7 @@ public class PlayerController : MonoBehaviour
         gravity = rb.gravityScale;
         anim = GetComponent<Animator>();
         canDash = true;
+        SaveData.Instance.LoadPlayerData();
     }
 
     void OnDrawGizmos()
