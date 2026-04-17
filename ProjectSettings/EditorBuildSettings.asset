@@ -26,6 +26,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TrillAlive.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Player's_House.unity
+    guid: 722c702283b94264e9a05a01c6c90a36
+  - enabled: 1
+    path: Assets/Scenes/Rsdnt_2's_House.unity
+    guid: fa1c158266dfc6244b878a533e7c64c6
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 679eabe585b765c45b31baae4b948ff8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
