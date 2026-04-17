@@ -1403,7 +1403,7 @@ GameObject:
   - component: {fileID: 230652600}
   - component: {fileID: 230652602}
   - component: {fileID: 230652601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3582,7 +3582,7 @@ GameObject:
   - component: {fileID: 501377012}
   - component: {fileID: 501377014}
   - component: {fileID: 501377013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6596,7 +6596,7 @@ GameObject:
   - component: {fileID: 788426341}
   - component: {fileID: 788426343}
   - component: {fileID: 788426342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7219,7 +7219,7 @@ GameObject:
   - component: {fileID: 895108698}
   - component: {fileID: 895108700}
   - component: {fileID: 895108699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7882,7 +7882,7 @@ GameObject:
   - component: {fileID: 990475007}
   - component: {fileID: 990475009}
   - component: {fileID: 990475008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12174,7 +12174,7 @@ GameObject:
   - component: {fileID: 1562159162}
   - component: {fileID: 1562159164}
   - component: {fileID: 1562159163}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13850,7 +13850,7 @@ GameObject:
   - component: {fileID: 1717155510}
   - component: {fileID: 1717155512}
   - component: {fileID: 1717155511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

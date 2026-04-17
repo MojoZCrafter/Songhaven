@@ -19,11 +19,21 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int maxAirJumps;
     [Space(5)]
 
+    [Header("Wall Jump Settings")]
+    [SerializeField] private float wallSlidingSpeed = 2f;
+    [SerializeField] private Transform wallCheck;
+    [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private float wallJumpingDuration;
+    [SerializeField] private Vector2 wallJumpingPower;
+
     [Header("Ground Check Settings")]
     [SerializeField] private Transform groundCheckPoint;
     [SerializeField] private float groundCheckX = 0.5f;
     [SerializeField] private float groundCheckY = 0.2f;
     [SerializeField] private LayerMask whatIsGround;
+    float wallJumpingDirection;
+    bool isWallSliding;
+    bool isWallJumping;
     [Space(5)]
 
     [Header("Dash Settings")]
@@ -126,9 +136,16 @@ public class PlayerController : MonoBehaviour
         if(pState.dashing) return;
         if(pState.alive)
         {
-            Flip();
-            Move();
-            Jump();
+            if(!isWallJumping)
+            {
+                Flip();
+                Move();
+                Jump();
+            }
+
+            WallSlide();
+            WallJump();
+
             StartDash();
             Attack();
         }
@@ -513,5 +530,57 @@ public class PlayerController : MonoBehaviour
         {
             jumpBufferCounter--;
         }
+    }
+
+    private bool Walled()
+    {
+        return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
+    }
+
+    void WallSlide()
+    {
+        if(Walled() && !Grounded() && xAxis != 0)
+        {
+            isWallSliding = true;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Clamp(rb.linearVelocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
+        else
+        {
+            isWallSliding = false;
+        }
+    }
+
+    void WallJump()
+    {
+        if(isWallSliding)
+        {
+            isWallJumping = false;
+            wallJumpingDirection = !pState.lookingRight ? 1 : -1;
+            CancelInvoke(nameof(StopWallJumping));
+        }
+
+        if(Input.GetButtonDown("Jump") && isWallSliding)
+        {
+            isWallJumping = true;
+            rb.linearVelocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
+
+            dashed = false;
+            airJumpCounter = 0;
+
+            if((pState.lookingRight && transform.eulerAngles.y == 0) || (!pState.lookingRight && transform.eulerAngles.y != 0))
+            {
+                pState.lookingRight = !pState.lookingRight;
+                int _yRotation = pState.lookingRight ? 0 : 180;
+
+                transform.eulerAngles = new Vector2(transform.eulerAngles.x, _yRotation);
+            }
+
+            Invoke(nameof(StopWallJumping), wallJumpingDuration);
+        }
+    }
+
+    void StopWallJumping()
+    {
+        isWallJumping = false;
     }
 }
