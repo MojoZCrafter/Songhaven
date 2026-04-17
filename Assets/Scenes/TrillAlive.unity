@@ -368,7 +368,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 45, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_LocalScale: {x: 11, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1226,8 +1226,9 @@ MonoBehaviour:
   - "Yeah\u2026"
   - "Anyways, why don\u2019t you go get me some food?"
   - "Do a dying man a favor and snag me my favorite, will ya\u2019?"
-  - The pear trees are deep in the outskirts
-  - So good luck!
+  - The pear trees are deep in the outskirts, so make sure to pull up your map with
+    Tab to not get lost
+  - Good luck!
   textSpeed: 0.05
 --- !u!114 &316241204
 MonoBehaviour:
@@ -1778,6 +1779,8 @@ MonoBehaviour:
   - Or the day after that
   - Or I could just lie down and accept my fate
   - ...
+  - Please leave me to my misery
+  - Using the arrow keys to walk away, I mean
   textSpeed: 0.05
 --- !u!1 &420608540
 GameObject:
@@ -3998,11 +4001,12 @@ MonoBehaviour:
   - Cursing the percussionists for taking my brother
   - But now, I just feel empty inside
   - And despite what you think, things will only get worse
-  - "The police will keep coming until there isn\u2019t a single person left in the
-    outskirts"
+  - "The police will keep coming until there isn\u2019t a single human left in Trill"
   - ...
   - How about you try again to get some food
   - Search the outskirts, will ya?
+  - And please remember... you can jump and also wall-jump with Spacebar
+  - And double-jump, that's also important
   textSpeed: 0.05
 --- !u!114 &1052835403
 MonoBehaviour:
@@ -4338,9 +4342,12 @@ MonoBehaviour:
   - Hey
   - You going out into the outskirts today?
   - Stay safe
-  - If you see any wild beasts, make sure to give them a whack with left mouse button
+  - If you see any wild beasts, make sure to give them a whack with the "S" key
   - Good thing that instrument weapon washed up on the shore
   - Works much better than a wooden plank
+  - ...
+  - "But if you can\u2019t fight for whatever reason\u2026"
+  - "Just dash away with the \u201CD\u201D key"
   textSpeed: 0.05
 --- !u!114 &1188225766
 MonoBehaviour:
