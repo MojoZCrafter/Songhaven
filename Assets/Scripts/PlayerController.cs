@@ -86,6 +86,9 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
 
+    //unlocking abilities
+    public bool unlockedWallJump;
+
 
 
     void Awake()
@@ -142,9 +145,12 @@ public class PlayerController : MonoBehaviour
                 Move();
                 Jump();
             }
-
-            WallSlide();
-            WallJump();
+            if(unlockedWallJump)
+            {
+                WallSlide();
+                WallJump();
+            }
+            
 
             StartDash();
             Attack();
