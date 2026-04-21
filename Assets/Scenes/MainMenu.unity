@@ -365,7 +365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000095367, y: 47}
+  m_AnchoredPosition: {x: 244, y: 47}
   m_SizeDelta: {x: 1915.968, y: 1167.5132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95534106
@@ -401,7 +401,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Left-Mouse-Button is used to progress dialogue
+  m_Text: Click on the NPCs to progress dialogue
 --- !u!222 &95534107
 CanvasRenderer:
   m_ObjectHideFlags: 0
