@@ -343,6 +343,7 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage(float _damage)
     {
         Health -= Mathf.RoundToInt(_damage);
+        AudioManager.Instance.PlaySFX("Player Damage");
         if(Health <= 0)
         {
             Health = 0;

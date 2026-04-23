@@ -20,6 +20,7 @@ public class WholeNote : MonoBehaviour
         if(_other.CompareTag("Player"))
         {
             PlayerController.Instance.Heal();
+            AudioManager.Instance.PlaySFX("Heal");
             Destroy(gameObject);
         }
     }
