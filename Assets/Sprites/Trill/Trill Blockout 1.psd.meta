@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ff9a21b11b42ec4bb4c82b937fc64a2
+guid: 6ee46358ee73d9043835a5d4ff1b1703
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -156,7 +156,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 72
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1009,45 +1009,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Trill Blockout 1_0: 8472614727023211059
-      Trill Blockout 1_1: 9133885351644442690
-      Trill Blockout 1_10: 1793896474058417764
-      Trill Blockout 1_11: 160344090881776470
-      Trill Blockout 1_12: 2768489012334002117
-      Trill Blockout 1_13: -4664719852742584140
-      Trill Blockout 1_14: 4429007931431318001
-      Trill Blockout 1_15: -2161851400725060763
-      Trill Blockout 1_16: -4985735994622859573
-      Trill Blockout 1_17: 7781730789154383702
-      Trill Blockout 1_18: 1783823854671679783
-      Trill Blockout 1_19: -6085685828831396970
-      Trill Blockout 1_2: 4680218218287554866
-      Trill Blockout 1_20: 6725820322925154514
-      Trill Blockout 1_21: -3173921356773524138
-      Trill Blockout 1_22: 240889599316502035
-      Trill Blockout 1_23: -3689464509299642999
-      Trill Blockout 1_24: -3801014554258116652
-      Trill Blockout 1_25: -9162810365506525253
-      Trill Blockout 1_26: 7561558445417182927
-      Trill Blockout 1_27: -2256361382875700240
-      Trill Blockout 1_28: 1073304062713491906
-      Trill Blockout 1_29: 1554333951215506376
-      Trill Blockout 1_3: -3236607144096725434
-      Trill Blockout 1_30: 4232499234547965283
-      Trill Blockout 1_31: 469651091018422421
-      Trill Blockout 1_32: -4224714827454073525
-      Trill Blockout 1_33: 7876158078689837264
-      Trill Blockout 1_34: 5482609868606137456
-      Trill Blockout 1_35: 2871906212954016168
-      Trill Blockout 1_4: 5993012109150074488
-      Trill Blockout 1_5: -3809679773924686710
-      Trill Blockout 1_6: 2785329038469570685
-      Trill Blockout 1_7: 3103931338026473988
-      Trill Blockout 1_8: -4255219966575269937
-      Trill Blockout 1_9: 3560289253140917216
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
-  pSDRemoveMatte: 1
+  pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
