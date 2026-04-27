@@ -7748,7 +7748,7 @@ GameObject:
   - component: {fileID: 947400813}
   - component: {fileID: 947400812}
   m_Layer: 0
-  m_Name: New Things_4
+  m_Name: Spikes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7817,12 +7817,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947400811}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 11.552604, y: -7.6953144, z: 0}
   m_LocalScale: {x: 0.59341, y: 0.59341, z: 0.59341}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1541285157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &957256335
 GameObject:
@@ -12084,6 +12084,7 @@ Transform:
   - {fileID: 1517928010}
   - {fileID: 2025247705}
   - {fileID: 1691493569}
+  - {fileID: 947400813}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549658255
@@ -18011,6 +18012,5 @@ SceneRoots:
   - {fileID: 1195819642}
   - {fileID: 1496403467}
   - {fileID: 2914916094869969382}
-  - {fileID: 947400813}
   - {fileID: 874749103}
   - {fileID: 1556459326}
