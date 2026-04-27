@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: 6ee46358ee73d9043835a5d4ff1b1703
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8472614727023211059
+    second: Trill Blockout 1_0
+  - first:
+      213: 9133885351644442690
+    second: Trill Blockout 1_1
+  - first:
+      213: 4680218218287554866
+    second: Trill Blockout 1_2
+  - first:
+      213: -3236607144096725434
+    second: Trill Blockout 1_3
+  - first:
+      213: 5993012109150074488
+    second: Trill Blockout 1_4
+  - first:
+      213: -3809679773924686710
+    second: Trill Blockout 1_5
+  - first:
+      213: 2785329038469570685
+    second: Trill Blockout 1_6
+  - first:
+      213: 3103931338026473988
+    second: Trill Blockout 1_7
+  - first:
+      213: -4255219966575269937
+    second: Trill Blockout 1_8
+  - first:
+      213: 3560289253140917216
+    second: Trill Blockout 1_9
+  - first:
+      213: 1793896474058417764
+    second: Trill Blockout 1_10
+  - first:
+      213: 160344090881776470
+    second: Trill Blockout 1_11
+  - first:
+      213: 2768489012334002117
+    second: Trill Blockout 1_12
+  - first:
+      213: -4664719852742584140
+    second: Trill Blockout 1_13
+  - first:
+      213: 4429007931431318001
+    second: Trill Blockout 1_14
+  - first:
+      213: -2161851400725060763
+    second: Trill Blockout 1_15
+  - first:
+      213: -4985735994622859573
+    second: Trill Blockout 1_16
+  - first:
+      213: 7781730789154383702
+    second: Trill Blockout 1_17
+  - first:
+      213: 1783823854671679783
+    second: Trill Blockout 1_18
+  - first:
+      213: -6085685828831396970
+    second: Trill Blockout 1_19
+  - first:
+      213: 6725820322925154514
+    second: Trill Blockout 1_20
+  - first:
+      213: -3173921356773524138
+    second: Trill Blockout 1_21
+  - first:
+      213: 240889599316502035
+    second: Trill Blockout 1_22
+  - first:
+      213: -3689464509299642999
+    second: Trill Blockout 1_23
+  - first:
+      213: -3801014554258116652
+    second: Trill Blockout 1_24
+  - first:
+      213: -9162810365506525253
+    second: Trill Blockout 1_25
+  - first:
+      213: 7561558445417182927
+    second: Trill Blockout 1_26
+  - first:
+      213: -2256361382875700240
+    second: Trill Blockout 1_27
+  - first:
+      213: 1073304062713491906
+    second: Trill Blockout 1_28
+  - first:
+      213: 1554333951215506376
+    second: Trill Blockout 1_29
+  - first:
+      213: 4232499234547965283
+    second: Trill Blockout 1_30
+  - first:
+      213: 469651091018422421
+    second: Trill Blockout 1_31
+  - first:
+      213: -4224714827454073525
+    second: Trill Blockout 1_32
+  - first:
+      213: 7876158078689837264
+    second: Trill Blockout 1_33
+  - first:
+      213: 5482609868606137456
+    second: Trill Blockout 1_34
+  - first:
+      213: 2871906212954016168
+    second: Trill Blockout 1_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trill Blockout 1_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 3935
+        width: 128
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33236f25436c49570800000000000000
+      internalID: 8472614727023211059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 3136
+        width: 958
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24039eb755412ce70800000000000000
+      internalID: 9133885351644442690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_2
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 3299
+        width: 539
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23167543ca973f040800000000000000
+      internalID: 4680218218287554866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_3
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 3825
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6468f9263f24513d0800000000000000
+      internalID: -3236607144096725434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_4
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 3792
+        width: 559
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876318cc2c47b2350800000000000000
+      internalID: 5993012109150074488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_5
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 3446
+        width: 150
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a848a3f1e6c412bc0800000000000000
+      internalID: -3809679773924686710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_6
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 3433
+        width: 369
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d702f80d00a77a620800000000000000
+      internalID: 2785329038469570685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_7
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 3439
+        width: 586
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a554a4b11631b20800000000000000
+      internalID: 3103931338026473988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_8
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 3385
+        width: 405
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7a12b4cfb62f4c0800000000000000
+      internalID: -4255219966575269937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_9
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 3391
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebea176630b86130800000000000000
+      internalID: 3560289253140917216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_10
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 3213
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466e314b65335e810800000000000000
+      internalID: 1793896474058417764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_11
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 2286
+        width: 537
+        height: 797
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b57d2e918a93200800000000000000
+      internalID: 160344090881776470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_12
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 3009
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf7db0b616ab6620800000000000000
+      internalID: 2768489012334002117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_13
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 2966
+        width: 632
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8d0983206934fb0800000000000000
+      internalID: -4664719852742584140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_14
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2179
+        width: 643
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1f95c6f3ff67d30800000000000000
+      internalID: 4429007931431318001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_15
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2481
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5632a92ea9f8ff1e0800000000000000
+      internalID: -2161851400725060763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_16
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 2291
+        width: 553
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc620a8478b1fcab0800000000000000
+      internalID: -4985735994622859573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_17
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2372
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65764416ce24efb60800000000000000
+      internalID: 7781730789154383702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_18
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1992
+        width: 117
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721d29f385a61c810800000000000000
+      internalID: 1783823854671679783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_19
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 1957
+        width: 377
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b30e56bfc4b8ba0800000000000000
+      internalID: -6085685828831396970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_20
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1971
+        width: 351
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d09e03e2f9e65d50800000000000000
+      internalID: 6725820322925154514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 987
+        width: 400
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65dfc789757f3f3d0800000000000000
+      internalID: -3173921356773524138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_22
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1502
+        width: 392
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316a85570dfc75300800000000000000
+      internalID: 240889599316502035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_23
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1605
+        width: 165
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98da8cf83936cccc0800000000000000
+      internalID: -3689464509299642999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_24
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1597
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfea5bc665104bc0800000000000000
+      internalID: -3801014554258116652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_25
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1594
+        width: 163
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb767bbe48827d080800000000000000
+      internalID: -9162810365506525253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_26
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1301
+        width: 730
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6327fd75d00f860800000000000000
+      internalID: 7561558445417182927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_27
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1442
+        width: 47
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3e8c8e64bcfa0e0800000000000000
+      internalID: -2256361382875700240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_28
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1316
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c17502cb5425ee00800000000000000
+      internalID: 1073304062713491906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_29
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 1100
+        width: 427
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c397805e7a129510800000000000000
+      internalID: 1554333951215506376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_30
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1035
+        width: 349
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d185b01abdcba30800000000000000
+      internalID: 4232499234547965283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 128
+        width: 707
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5981780dd29848600800000000000000
+      internalID: 469651091018422421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_32
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 148
+        width: 487
+        height: 797
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4536487f3cce55c0800000000000000
+      internalID: -4224714827454073525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_33
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 211
+        width: 710
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0812bfa0cbd4d60800000000000000
+      internalID: 7876158078689837264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_34
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 165
+        width: 722
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074e15c90a4261c40800000000000000
+      internalID: 5482609868606137456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trill Blockout 1_35
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 185
+        width: 177
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a98c531c7f0bd720800000000000000
+      internalID: 2871906212954016168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
