@@ -1403,7 +1403,7 @@ GameObject:
   - component: {fileID: 230652600}
   - component: {fileID: 230652602}
   - component: {fileID: 230652601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3582,7 +3582,7 @@ GameObject:
   - component: {fileID: 501377012}
   - component: {fileID: 501377014}
   - component: {fileID: 501377013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6596,7 +6596,7 @@ GameObject:
   - component: {fileID: 788426341}
   - component: {fileID: 788426343}
   - component: {fileID: 788426342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7219,7 +7219,7 @@ GameObject:
   - component: {fileID: 895108698}
   - component: {fileID: 895108700}
   - component: {fileID: 895108699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7882,7 +7882,7 @@ GameObject:
   - component: {fileID: 990475007}
   - component: {fileID: 990475009}
   - component: {fileID: 990475008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12231,7 +12231,7 @@ GameObject:
   - component: {fileID: 1562159162}
   - component: {fileID: 1562159164}
   - component: {fileID: 1562159163}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13481,7 +13481,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 1
   m_CompositeOrder: 0
-  m_Offset: {x: -7.3103256, y: 16.998236}
+  m_Offset: {x: -7.3103256, y: 21.01131}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13491,7 +13491,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 40.434105, y: 21.665028}
+  m_Size: {x: 40.434105, y: 13.63888}
   m_EdgeRadius: 0
 --- !u!66 &1681085446
 CompositeCollider2D:
@@ -13539,15 +13539,15 @@ CompositeCollider2D:
       - X: -275273792
         Y: 278307488
       - X: -275273792
-        Y: 61657220
+        Y: 141918704
       - X: 129067272
-        Y: 61657220
+        Y: 141918704
   m_CompositePaths:
     m_Paths:
-    - - {x: 12.906698, y: 6.165722}
+    - - {x: 12.906698, y: 14.191871}
       - {x: 12.906698, y: 27.83075}
       - {x: -27.52738, y: 27.83072}
-      - {x: -27.527351, y: 6.165722}
+      - {x: -27.527351, y: 14.191871}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
@@ -13907,7 +13907,7 @@ GameObject:
   - component: {fileID: 1717155510}
   - component: {fileID: 1717155512}
   - component: {fileID: 1717155511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall and Floor Outskirts_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17476,6 +17476,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7a25c1a98016bf40bf2befe63ab1263, type: 3}
+--- !u!1001 &2914916094869969382
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 24.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156921175642764081, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952299765236560552, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
+      propertyPath: m_Name
+      value: Unlock Wall Jump
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c377c45eacbbc0c468e27aef31aaa6ca, type: 3}
 --- !u!1001 &3380238544303691003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17790,3 +17847,4 @@ SceneRoots:
   - {fileID: 1525387259}
   - {fileID: 1195819642}
   - {fileID: 1496403467}
+  - {fileID: 2914916094869969382}

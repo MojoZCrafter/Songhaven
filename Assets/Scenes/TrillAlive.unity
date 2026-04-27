@@ -867,6 +867,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &131282535 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5002126962885482910, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
+  m_PrefabInstance: {fileID: 1339438938267759583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &140329361
 GameObject:
   m_ObjectHideFlags: 0
@@ -6070,6 +6075,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321099269}
   m_CullTransparentMesh: 1
+--- !u!4 &1332870724 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1141438696719134362, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
+  m_PrefabInstance: {fileID: 1339438938267759583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1333986389
 GameObject:
   m_ObjectHideFlags: 0
@@ -6581,7 +6591,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.40823555}
+  m_Offset: {x: 0, y: -0.30299282}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6591,7 +6601,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 21, y: 3.2539263}
+  m_Size: {x: 21, y: 3.4644117}
   m_EdgeRadius: 0
 --- !u!212 &1394643355
 SpriteRenderer:
@@ -7206,6 +7216,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 146009386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1462269923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9014786193898337777, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
+  m_PrefabInstance: {fileID: 1339438938267759583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1466176480
 GameObject:
   m_ObjectHideFlags: 0
@@ -7799,6 +7814,11 @@ RectTransform:
   m_AnchoredPosition: {x: -16.5704, y: 15.4128}
   m_SizeDelta: {x: 1649.1345, y: 631.4078}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &1553747062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5811440250829707839, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
+  m_PrefabInstance: {fileID: 1339438938267759583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1557968745
 GameObject:
   m_ObjectHideFlags: 0
@@ -9670,8 +9690,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1089767251
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9716,42 +9736,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd0f7109c2ffd9741b1f44d7ae21827b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 1
-  jumpForce: 10
-  jumpBufferFrames: 0
-  coyoteTime: 0
-  maxAirJumps: 0
-  groundCheckPoint: {fileID: 0}
+  walkSpeed: 7
+  jumpForce: 17
+  jumpBufferFrames: 7
+  coyoteTime: 0.1
+  maxAirJumps: 1
+  wallSlidingSpeed: 2
+  wallCheck: {fileID: 1553747062}
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  wallJumpingDuration: 0.1
+  wallJumpingPower: {x: 15, y: 15}
+  groundCheckPoint: {fileID: 131282535}
   groundCheckX: 0.5
   groundCheckY: 0.2
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 0
-  dashSpeed: 0
-  dashTime: 0
-  dashCooldown: 0
+    m_Bits: 64
+  dashSpeed: 15
+  dashTime: 0.2
+  dashCooldown: 0.35
   timeBetweenAttack: 0
-  SideAttackTransform: {fileID: 0}
-  UpAttackTransform: {fileID: 0}
-  DownAttackTransform: {fileID: 0}
-  SideAttackArea: {x: 0, y: 0}
-  UpAttackArea: {x: 0, y: 0}
-  DownAttackArea: {x: 0, y: 0}
+  SideAttackTransform: {fileID: 1332870724}
+  UpAttackTransform: {fileID: 2028057395}
+  DownAttackTransform: {fileID: 2040808984}
+  SideAttackArea: {x: 2.5, y: 2}
+  UpAttackArea: {x: 2, y: 2.5}
+  DownAttackArea: {x: 2, y: 2.5}
   attackableLayer:
     serializedVersion: 2
-    m_Bits: 0
-  damage: 0
+    m_Bits: 128
+  damage: 4
   recoilXSteps: 5
   recoilYSteps: 5
-  recoilXSpeed: 100
-  recoilYSpeed: 100
+  recoilXSpeed: 10
+  recoilYSpeed: 10
   health: 0
-  maxHealth: 0
-  damageParticle: {fileID: 0}
-  hitFlashSpeed: 0
+  maxHealth: 5
+  damageParticle: {fileID: 1462269923}
+  hitFlashSpeed: 0.25
   pState: {fileID: 0}
   rb: {fileID: 0}
   isFrozen: 0
+  unlockedWallJump: 0
 --- !u!95 &1962821079
 Animator:
   serializedVersion: 7
@@ -9783,7 +9811,7 @@ Transform:
   m_GameObject: {fileID: 1962821073}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.29, y: 5.72, z: 0}
+  m_LocalPosition: {x: -25.32, y: 7.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10140,6 +10168,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &2028057395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6166502510130398602, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
+  m_PrefabInstance: {fileID: 1339438938267759583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2037581673
 GameObject:
   m_ObjectHideFlags: 0
@@ -10274,6 +10307,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &2040808984 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6319529636413663505, guid: 72c963dbf3ea6c3499eb8f75b3389e0c, type: 3}
+  m_PrefabInstance: {fileID: 1339438938267759583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2080860545
 GameObject:
   m_ObjectHideFlags: 0
@@ -11628,6 +11666,7 @@ SceneRoots:
   - {fileID: 146009386}
   - {fileID: 780370680}
   - {fileID: 1339438938267759583}
+  - {fileID: 1962821080}
   - {fileID: 1006393765}
   - {fileID: 2160541510455367367}
   - {fileID: 1625371420245168835}
@@ -11648,3 +11687,4 @@ SceneRoots:
   - {fileID: 481999182}
   - {fileID: 1962821080}
   - {fileID: 6727746680024427461}
+  - {fileID: 619882580}
