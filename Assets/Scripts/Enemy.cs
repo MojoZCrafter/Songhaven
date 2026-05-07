@@ -15,6 +15,15 @@ public class Enemy : MonoBehaviour
 
     protected float recoilTimer;
     protected Rigidbody2D rb;
+
+    protected enum EnemyStates
+    {
+        //Busho
+        Busho_Idle,
+        Busho_Flip
+    }
+
+    protected EnemyStates currentEnemyState;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected virtual void Start()
     {
@@ -30,6 +39,8 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
+        UpdateEnemyStates();
+
         if(health <= 0)
         {
             Destroy(gameObject);
@@ -58,9 +69,9 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    protected void OnTriggerStay2D(Collider2D _other)
+    protected void OnCollisionStay2D(Collision2D _other)
     {
-        if(_other.CompareTag("Player") && !PlayerController.Instance.pState.invincible)
+        if(_other.gameObject.CompareTag("Player") && !PlayerController.Instance.pState.invincible)
         {
             Attack();
             if(PlayerController.Instance.pState.alive)
@@ -68,6 +79,16 @@ public class Enemy : MonoBehaviour
             PlayerController.Instance.HitStopTime(0, 5, 0.5f);
             }
         }
+    }
+
+    protected virtual void UpdateEnemyStates()
+    {
+
+    }
+
+    protected void ChangeState(EnemyStates _newState)
+    {
+        currentEnemyState = _newState;
     }
 
     protected virtual void Attack()

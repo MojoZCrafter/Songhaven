@@ -4,27 +4,52 @@ using UnityEngine;
 
 public class Busho : Enemy
 {
-    void Start()
+
+    float timer; 
+    [SerializeField] private float flipWaitTime;
+    [SerializeField] private float ledgeCheckX;
+    [SerializeField] private float ledgeCheckY;
+    [SerializeField] private LayerMask whatIsGround;
+
+    protected override void Start()
     {
+        base.Start();
         rb.gravityScale = 12f;
     }
 
-    protected override void Awake()
+    protected override void UpdateEnemyStates()
     {
-        base.Awake();
-    }
-
-    protected override void Update()
-    {
-        base.Update();
-        if(!isRecoiling)
+        
+        switch (currentEnemyState)
         {
-            transform.position = Vector2.MoveTowards(transform.position, new Vector2(PlayerController.Instance.transform.position.x, transform.position.y), speed * Time.deltaTime);
-        }
-    }
+            case EnemyStates.Busho_Idle:
+                Vector3 _ledgeCheckStartPoint = transform.localScale.x > 0 ? new Vector3(ledgeCheckX, 0) : new Vector3(-ledgeCheckX, 0);
+                Vector2 _wallCheckDir = transform.localScale.x > 0 ? transform.right : -transform.right;
 
-    public override void EnemyHit(float _damageDone, Vector2 _hitDirection, float _hitForce)
-    {
-        base.EnemyHit(_damageDone, _hitDirection, _hitForce);
+                if(!Physics2D.Raycast(transform.position + _ledgeCheckStartPoint, Vector2.down, ledgeCheckY, whatIsGround) || Physics2D.Raycast(transform.position, _wallCheckDir, ledgeCheckX, whatIsGround))
+                {
+                    ChangeState(EnemyStates.Busho_Flip);
+                }
+                if(transform.localScale.x > 0)
+                {
+                    rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
+                }
+                else
+                {
+                    rb.linearVelocity = new Vector2(-speed, rb.linearVelocity.y);
+                }
+                break;
+
+            case EnemyStates.Busho_Flip:
+                timer += Time.deltaTime;
+
+                if(timer > flipWaitTime)
+                {
+                    timer = 0;
+                    transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
+                    ChangeState(EnemyStates.Busho_Idle);
+                }
+                break;
+        }
     }
 }
