@@ -397,7 +397,7 @@ TextureImporter:
       Player Songhaven Spritesheet (1)_8: 5084166269196820671
       Player Songhaven Spritesheet (1)_9: -3260879215229737829
   mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
