@@ -21,8 +21,6 @@ public class DialogueTrigger : MonoBehaviour
         {
             if (dialogueBoxUI != null)
                 dialogueBoxUI.SetActive(true);
-            if (playerController != null)
-                playerController.isFrozen = true;
         }
     }
 
@@ -32,8 +30,6 @@ public class DialogueTrigger : MonoBehaviour
         {
             if (dialogueBoxUI != null)
                 dialogueBoxUI.SetActive(false);
-                 if (playerController != null)
-                playerController.isFrozen = false;
         }
     }
 }
