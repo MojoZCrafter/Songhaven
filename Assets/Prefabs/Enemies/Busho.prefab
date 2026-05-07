@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 5017675981653648656}
   - component: {fileID: 7246985810431531699}
   - component: {fileID: 2020306385645991488}
+  - component: {fileID: 7344419317152622988}
   m_Layer: 7
   m_Name: Busho
   m_TagString: Enemy
@@ -309,6 +310,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 9.676758, y: 7.507048}
   m_EdgeRadius: 0
+--- !u!95 &7344419317152622988
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4358985969160563206}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5925961032982340127
 GameObject:
   m_ObjectHideFlags: 0
