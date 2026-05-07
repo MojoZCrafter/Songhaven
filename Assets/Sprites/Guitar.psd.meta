@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 72
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,13 +103,13 @@ TextureImporter:
       name: Guitar_0
       rect:
         serializedVersion: 2
-        x: 382
-        y: 278
-        width: 911
-        height: 1673
-      alignment: 9
-      pivot: {x: 0.6880115, y: 0.7720329}
-      border: {x: 260, y: 0, z: 0, w: 0}
+        x: 381
+        y: 277
+        width: 914
+        height: 1676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d0d30df94dfb3554a8473f84efbe89e0
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -134,10 +134,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Guitar_0: -3007706496689592259
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
-  pSDRemoveMatte: 1
+  pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
